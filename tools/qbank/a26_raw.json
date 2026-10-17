@@ -1,0 +1,2191 @@
+[
+ {
+  "wk": 1,
+  "n": 1,
+  "stem": "Which of the following can be considered a job (routine operation) rather than a project?",
+  "opts": [
+   "Processing monthly employee salaries",
+   "Developing a new mobile application",
+   "Manufacturing cars on an assembly line",
+   "Organizing the Olympic Games",
+   "Handling daily customer support requests"
+  ],
+  "ans": [
+   0,
+   2,
+   4
+  ],
+  "ca": "a. Processing monthly employee salaries\nc. Manufacturing cars on an assembly line\ne. Handling daily customer support requests",
+  "sol": "Processing monthly salaries, manufacturing cars on an assembly line, and handling daily customer support requests are all repetitive, ongoing operations with well-defined procedures. They lack the temporary, unique, and goal-oriented nature of projects, which have a clear start and end, such as developing a new app or organizing the Olympics."
+ },
+ {
+  "wk": 1,
+  "n": 2,
+  "stem": "Software projects are generally considered harder to manage than manufacturing projects. Which of the following are possible reasons for this?",
+  "opts": [
+   "Software products are intangible",
+   "Software development involves highly skilled intellectual work",
+   "Software projects are always larger than manufacturing projects",
+   "Requirement changes can have significant effects on software projects",
+   "Software projects require people management"
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. Software products are intangible\nb. Software development involves highly skilled intellectual work\nd. Requirement changes can have significant effects on software projects",
+  "sol": "Software products are intangible, making progress difficult to measure visually, and development relies on highly skilled intellectual work, which is less predictable than manufacturing tasks. Additionally, requirement changes can have a significant ripple effect on software projects due to their malleable nature, whereas manufacturing changes are often costlier to implement later. People management, while important, is required in all projects and is not a unique reason for software's added difficulty."
+ },
+ {
+  "wk": 1,
+  "n": 3,
+  "stem": "Which of the following statements about software complexity are true?",
+  "opts": [
+   "Professional developers usually make any software that they develop as complex as possible",
+   "Making changes to software for maintenance purposes does not affect its complexity.",
+   "Increased software complexity generally makes maintenance more difficult.",
+   "Repeated modifications can increase software complexity.",
+   "Software complexity automatically decreases as software ages.",
+   "Higher software complexity can increase the likelihood of introducing defects during maintenance."
+  ],
+  "ans": [
+   2,
+   3,
+   5
+  ],
+  "ca": "c. Increased software complexity generally makes maintenance more difficult.\nd. Repeated modifications can increase software complexity.\nf. Higher software complexity can increase the likelihood of introducing\ndefects during maintenance.",
+  "sol": "Increased software complexity makes the code harder to understand and modify, directly increasing maintenance difficulty. Repeated modifications over time tend to add structural clutter (often called software entropy), which raises complexity, and this higher complexity increases the chance of introducing new defects when changes are made. Professional developers aim for simplicity, maintenance changes do affect complexity, and complexity does not automatically decrease with age—it typically grows unless actively refactored."
+ },
+ {
+  "wk": 1,
+  "n": 4,
+  "stem": "Which of the following statements regarding project stakeholders are true?",
+  "opts": [
+   "Sponsors are not considered stakeholders because they only provide resources for the project.",
+   "A stakeholder can be an individual or an organization.",
+   "Stakeholders may influence project execution and outcomes.",
+   "Customers are stakeholders because they use the project's product or service.",
+   "Only project team members are the stakeholders of the project"
+  ],
+  "ans": [
+   1,
+   2,
+   3
+  ],
+  "ca": "b. A stakeholder can be an individual or an organization.\nc. Stakeholders may influence project execution and outcomes.\nd. Customers are stakeholders because they use the project's product or\nservice",
+  "sol": "Stakeholders include any individual or organization that is actively involved in or affected by the project, which covers sponsors, customers, users, and the project team. They can influence project execution and outcomes, and customers are indeed stakeholders because they use or are impacted by the final product. Sponsors are also key stakeholders despite providing resources, and limiting stakeholders to just the project team is incorrect."
+ },
+ {
+  "wk": 1,
+  "n": 5,
+  "stem": "Which of the following factors can negatively affect the success of a software project?",
+  "opts": [
+   "Frequent changes in business needs.",
+   "Inexperienced project team members.",
+   "Effective project management.",
+   "Rapid changes in the chosen technology.",
+   "Poor understanding of customer expectations."
+  ],
+  "ans": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "ca": "a. Frequent changes in business needs.\nb. Inexperienced project team members.\nd. Rapid changes in the chosen technology.\ne. Poor understanding of customer expectations.",
+  "sol": "Frequent changes in business needs, inexperienced team members, rapid technology shifts, and poor understanding of customer expectations all introduce uncertainty, rework, and misalignment, which directly harm project success. In contrast, effective project management is a positive factor that helps mitigate risks and keep the project on track."
+ },
+ {
+  "wk": 1,
+  "n": 6,
+  "stem": "Which of the following statements is correct regarding various types of software projects?",
+  "opts": [
+   "Packaged software is rarely available for the vertical market",
+   "Packaged software is intended for multiple customers.",
+   "Custom software is always developed from scratch.",
+   "Custom software is developed to satisfy specific user requirements.",
+   "Packaged software is always cheaper than custom software."
+  ],
+  "ans": [
+   1,
+   3
+  ],
+  "ca": "b. Packaged software is intended for multiple customers.\nd. Custom software is developed to satisfy specific user requirements.",
+  "sol": "Packaged software is built for multiple customers with common needs, while custom software is tailored to satisfy specific user requirements for a particular organization. Custom software is not always developed from scratch (it can reuse components), and packaged software is not always cheaper—total costs depend on licensing, customization, and fit. Vertical-market packaged software is also widely available."
+ },
+ {
+  "wk": 1,
+  "n": 7,
+  "stem": "Which of the following is not considered to be Embedded Software?",
+  "opts": [
+   "TV Remote Software",
+   "Nuclear Plant Control Software",
+   "Patient Management Software for a hospital",
+   "Robot Control Software",
+   "Automobile Control Software"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. Patient Management Software for a hospital",
+  "sol": "Patient Management Software for a hospital runs on general-purpose computers or servers and is used for administrative and clinical data management, making it an information system rather than embedded software. In contrast, TV remote software, nuclear plant control, robot control, and automobile control software all run on specialized hardware (microcontrollers or processors) within larger devices to perform specific control functions, which is the defining characteristic of embedded software."
+ },
+ {
+  "wk": 1,
+  "n": 8,
+  "stem": "Which of the following statements regarding project management activities are correct?",
+  "opts": [
+   "Planning is performed during execution.",
+   "Feasibility analysis generally precedes project planning.",
+   "Project execution involves carrying out planned activities.",
+   "Feasibility study and project execution are identical activities.",
+   "A project manager may be involved in all three phases."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Feasibility analysis generally precedes project planning.\nc. Project execution involves carrying out planned activities.\ne. A project manager may be involved in all three phases.",
+  "sol": "Feasibility analysis is conducted before detailed project planning to assess viability, and project execution is indeed the phase where planned activities are carried out. A project manager is typically involved across feasibility, planning, and execution phases. Planning is primarily done before execution (though some iterative planning may occur), and feasibility study and execution are completely distinct activities."
+ },
+ {
+  "wk": 1,
+  "n": 9,
+  "stem": "Which of the following activities are typically associated with project planning?",
+  "opts": [
+   "Formally accepting project deliverables.",
+   "Developing schedules for project activities.",
+   "Conducting lessons-learned reviews.",
+   "Allocating project resources.",
+   "Releasing project resources after completion."
+  ],
+  "ans": [
+   1,
+   3
+  ],
+  "ca": "b. Developing schedules for project activities\nd. Allocating project resources",
+  "sol": "Developing schedules for project activities and allocating project resources are core project planning activities. Formally accepting deliverables, conducting lessons-learned reviews, and releasing resources all occur during project closing or execution phases, not during planning."
+ },
+ {
+  "wk": 1,
+  "n": 10,
+  "stem": "Which of the following are benefits of defining milestones in a software project?",
+  "opts": [
+   "Automatic generation of source code.",
+   "Elimination of the need for project planning.",
+   "Effective addressing of manpower turnover",
+   "Improved progress tracking.",
+   "Better visibility into project status."
+  ],
+  "ans": [
+   3,
+   4
+  ],
+  "ca": "d. Improved progress tracking.\ne. Better visibility into project status.",
+  "sol": "Defining milestones improves progress tracking by providing clear checkpoints to measure achievement against the schedule, and it gives better visibility into project status for stakeholders. Milestones do not generate code, eliminate the need for planning, or directly address manpower turnover—they are management tools for monitoring and communication."
+ },
+ {
+  "wk": 2,
+  "n": 1,
+  "stem": "Which of the following statements regarding the Waterfall model are correct?",
+  "opts": [
+   "Integration activities are distributed evenly throughout development.",
+   "Customer feedback is typically obtained through frequent prototypes.",
+   "Requirement changes after project initiation can be difficult to accommodate.",
+   "The model may create a false sense of project progress.",
+   "Working software may not be available until late in the project."
+  ],
+  "ans": [
+   2,
+   3,
+   4
+  ],
+  "ca": "c. Requirement changes after project initiation can be difficult to accommodate.\nd. The model may create a false sense of project progress.\ne. Working software may not be available until late in the project",
+  "sol": "In the Waterfall model, requirements are fixed early, making late changes difficult and costly to accommodate. Since working software is delivered only at the end, progress is often measured by documents and completed phases, which can create a false sense of progress, and stakeholders do not see executable software until late in the project. Integration also happens at the end (not evenly distributed), and prototypes are not a standard part of Waterfall."
+ },
+ {
+  "wk": 2,
+  "n": 2,
+  "stem": "Which of the following pairs are correctly matched in the V-Model of software development?",
+  "opts": [
+   "Requirements Specification ↔ System Testing",
+   "High-Level Design ↔ Integration Testing",
+   "Detailed Design ↔ Unit Testing",
+   "Project Planning ↔ Unit Testing",
+   "Coding ↔ System Testing"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "ca": "a. Requirements Specification ↔ System Testing\nb. High-Level Design ↔ Integration Testing\nc. Detailed Design ↔ Unit Testing",
+  "sol": "In the V-Model, each development phase on the left has a corresponding testing phase on the right: Requirements Specification maps to System Testing, High-Level Design maps to Integration Testing, and Detailed Design maps to Unit Testing. Project Planning has no direct testing counterpart, and Coding corresponds to Unit Testing—not System Testing."
+ },
+ {
+  "wk": 2,
+  "n": 3,
+  "stem": "Which of the following are commonly cited reasons for using prototyping?",
+  "opts": [
+   "Guaranteed reduction in project duration.",
+   "Requirements are only partially known.",
+   "Improved communication between users and developers.",
+   "Elimination of all testing activities.",
+   "Improved user involvement."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Requirements are only partially known.\nc. Improved communication between users and developers\ne. Improved user involvement",
+  "sol": "Prototyping is commonly used when requirements are unclear or only partially known, as it helps clarify them through tangible feedback. It also improves communication between users and developers by giving users something concrete to interact with, and it actively involves users in the refinement process. However, prototyping does not guarantee shorter project duration (it can add time) and does not eliminate the need for testing."
+ },
+ {
+  "wk": 2,
+  "n": 4,
+  "stem": "Which of the following are major objectives of the RAD model?",
+  "opts": [
+   "Reduce software development time.",
+   "Reduce software development cost.",
+   "Delay requirement changes until after testing.",
+   "Accommodate change requests as early as possible.",
+   "Eliminate the need for user involvement."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. Reduce software development time.\nb. Reduce software development cost.\nd. Accommodate change requests as early as possible",
+  "sol": "The Rapid Application Development (RAD) model aims to reduce development time and cost through iterative prototyping, reusable components, and accelerated cycles. It also emphasizes accommodating change requests as early as possible, keeping the system flexible to user feedback. RAD does not delay changes until after testing—it welcomes early changes—and it relies heavily on continuous user involvement, not eliminates it."
+ },
+ {
+  "wk": 2,
+  "n": 5,
+  "stem": "Which of the following statements about refactoring in the agile model are correct?",
+  "opts": [
+   "Refactoring requires changing user-visible behavior.",
+   "Refactoring improves internal code structure.",
+   "Refactoring should preserve external behavior.",
+   "Refactoring is intended to add major new functionality.",
+   "Refactoring can improve maintainability."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Refactoring improves internal code structure.\nc. Refactoring should preserve external behavior.\ne. Refactoring can improve maintainability.",
+  "sol": "Refactoring improves the internal structure of the code without altering its external behavior, which preserves functionality while making the system cleaner and easier to maintain. It is not meant to add new features or change what the user sees—those are separate development activities."
+ },
+ {
+  "wk": 2,
+  "n": 6,
+  "stem": "Which of the following are important practices in the XP model of software development?",
+  "opts": [
+   "Frequent integration instead of end-of-project integration.",
+   "Ongoing refactoring and design improvement.",
+   "Strict requirement freeze before development starts.",
+   "Greater emphasis on feedback and adaptation.",
+   "Testing only after implementation is complete."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. Frequent integration instead of end-of-project integration.\nb. Ongoing refactoring and design improvement.\nd. Greater emphasis on feedback and adaptation",
+  "sol": "Extreme Programming (XP) emphasizes frequent integration (often multiple times a day), continuous refactoring and design improvement to keep code clean, and strong feedback and adaptation through practices like test-driven development and customer involvement. XP does not freeze requirements early—it welcomes changing requirements—and it promotes testing before or alongside implementation, not only after."
+ },
+ {
+  "wk": 2,
+  "n": 7,
+  "stem": "Which of the following statements are FALSE regarding Scrum Sprints?",
+  "opts": [
+   "A Sprint is a time-boxed development cycle.",
+   "Software increments can be designed, coded, and tested within a Sprint.",
+   "Sprint duration is exactly one month.",
+   "Changes are normally entertained throughout the Sprint without restriction.",
+   "Scrum projects progress through a series of Sprints."
+  ],
+  "ans": [
+   2,
+   3
+  ],
+  "ca": "c. Sprint duration is exactly one month.\nd. Changes are normally entertained throughout the Sprint without restriction",
+  "sol": "Sprint duration is not fixed at exactly one month—it is typically 1 to 4 weeks, and the team chooses the length. Also, once a Sprint begins, the Sprint Backlog is fixed, and changes are not entertained without restriction; any change requires canceling the Sprint or deferring it to the next Sprint. The other statements (a, b, and e) are true regarding Scrum Sprints."
+ },
+ {
+  "wk": 2,
+  "n": 8,
+  "stem": "Which of the following statements regarding the Product Backlog are correct?",
+  "opts": [
+   "It contains only completed tasks.",
+   "It contains a list of desired work for the project.",
+   "It may contain both story-based and task-based work items.",
+   "It is prioritized by the Product Owner.",
+   "It cannot be modified once the project starts."
+  ],
+  "ans": [
+   1,
+   2,
+   3
+  ],
+  "ca": "b. It contains a list of desired work for the project.\nc. It may contain both story-based and task-based work items.\nd. It is prioritized by the Product Owner.",
+  "sol": "The Product Backlog contains a list of all desired work for the project, including user stories, technical tasks, and bug fixes, and it is continuously prioritized by the Product Owner to maximize value. It is not limited to completed tasks—those are removed or marked done—and it is dynamic, meaning it can be refined, reprioritized, or updated throughout the project, not frozen at the start."
+ },
+ {
+  "wk": 2,
+  "n": 9,
+  "stem": "Which of the following are typically represented in a Sprint Burn Down Chart?",
+  "opts": [
+   "Customer satisfaction ratings.",
+   "Remaining effort or hours.",
+   "Progress across Sprint days.",
+   "Number of employees in the organization.",
+   "Work remaining until Sprint completion."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Remaining effort or hours.\nc. Progress across Sprint days\ne. Work remaining until Sprint completion",
+  "sol": "A Sprint Burndown Chart tracks the remaining effort (e.g., hours or story points) across the days of the Sprint, showing how much work is left until completion. It does not display customer satisfaction, organizational headcount, or any metric outside the Sprint's work progress."
+ },
+ {
+  "wk": 2,
+  "n": 10,
+  "stem": "Which of the following statements about Product Backlog prioritization are correct?",
+  "opts": [
+   "Backlog items are typically ordered according to priority.",
+   "The Product Owner is responsible for backlog prioritization.",
+   "Prioritization helps determine what work should be addressed first.",
+   "All backlog items must have equal priority.",
+   "Priorities cannot change during a project."
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "ca": "a. Backlog items are typically ordered according to priority.\nb. The Product Owner is responsible for backlog prioritization.\nc. Prioritization helps determine what work should be addressed first.",
+  "sol": "The Product Backlog is an ordered list where items are ranked by priority, and the Product Owner is solely responsible for this prioritization to ensure the team works on the most valuable items first. Prioritization directly guides the sequence of development, but items do not have equal priority—they vary in importance—and priorities can and do change frequently based on feedback, market conditions, or business needs."
+ },
+ {
+  "wk": 3,
+  "n": 1,
+  "stem": "Which of the followings is an example of development cost?",
+  "opts": [
+   "Salary to staffs",
+   "Hardware cost",
+   "Recruitment cost",
+   "Staff training cost",
+   "Operational cost"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. Salary to staffs",
+  "sol": "Salaries of developers, testers, and other technical staff directly involved in building the product are considered direct development costs. Hardware used for development can sometimes be included, but it is often classified as infrastructure; recruitment and training are overheads, and operational costs occur after deployment."
+ },
+ {
+  "wk": 3,
+  "n": 2,
+  "stem": "Which element of Project Portfolio Management (PPM) is responsible for determining the scope of the portfolio, such as whether it should include all organizational projects or only projects from a specific domain (e.g., Healthcare Projects)?",
+  "opts": [
+   "portfolio definition",
+   "portfolio management",
+   "portfolio optimization",
+   "portfolio deletion",
+   "portfolio creation"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. portfolio definition",
+  "sol": "Portfolio definition is the PPM element responsible for establishing the portfolio's purpose, boundaries, and selection criteria—including deciding which types of projects (e.g., all organizational projects or only healthcare projects) are included. Portfolio management, optimization, deletion, and creation are related but focus on ongoing governance, value maximization, removal, or establishment, rather than defining scope."
+ },
+ {
+  "wk": 3,
+  "n": 3,
+  "stem": "Which one of the following is generally classified as an indirect cost in a software project?",
+  "opts": [
+   "Insurance",
+   "Development cost",
+   "setup cost",
+   "operational cost",
+   "Hardware procurement cost"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. Insurance",
+  "sol": "Insurance is generally classified as an indirect cost (overhead) because it supports overall business operations and cannot be traced directly to a specific project. Development costs, setup costs, operational costs, and hardware procurement are typically treated as direct costs tied to specific project activities."
+ },
+ {
+  "wk": 3,
+  "n": 4,
+  "stem": "Which one of the followings is an example of a variable cost?",
+  "opts": [
+   "Cost of computer forms according to the amount of processing",
+   "Straight-line depreciation of hardware",
+   "exempt employee salaries",
+   "insurance",
+   "Annual software license fee paid at a fixed rate"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. Cost of computer forms according to the amount of processing",
+  "sol": "The cost of computer forms varies directly with the amount of processing activity—more processing means more forms consumed, making it a true variable cost. In contrast, straight-line depreciation, exempt salaries, insurance, and fixed-rate software license fees remain constant regardless of usage volume, so they are fixed costs."
+ },
+ {
+  "wk": 3,
+  "n": 5,
+  "stem": "In break-even analysis, return period is the period when",
+  "opts": [
+   "the candidate system provides greater benefit than the old one.",
+   "the candidate system provides less benefit than the old one.",
+   "the candidate system provides equal benefit as the old one.",
+   "the candidate system does not provide any benefit.",
+   "the old system does not provide any benefit."
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. the candidate system provides greater benefit than the old one",
+  "sol": "The return period is defined as the time when the candidate system provides greater benefit than the old one — that is, the point at which the investment has not just broken even, but actually started delivering net positive advantage."
+ },
+ {
+  "wk": 3,
+  "n": 6,
+  "stem": "What will be the ROI for the following project details? Year Cash Flow Projection for Project B (in Rs.) 0 -1,000,000 1 200,000 2 200,000 3 200,000 4 200,000 5 300,000",
+  "opts": [
+   "2%",
+   "2.5%",
+   "5%",
+   "10%",
+   "10.5%",
+   "12%",
+   "12.5%"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. 2%",
+  "sol": "Total net profit = Rs. 100,000 Project duration = 5 years Average annual net profit = 100,000 / 5 = Rs. 20,000 Average annual ROI = (20,000 / 1,000,000) × 100 = 2%"
+ },
+ {
+  "wk": 3,
+  "n": 7,
+  "stem": "In which of the following risk evaluation methods, it is required to construct a project risk matrix?",
+  "opts": [
+   "Risk identification and ranking",
+   "Risk and net present value",
+   "Cost-Benefit Analysis",
+   "Risk profile analysis",
+   "Using decision trees"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. Risk identification and ranking",
+  "sol": "A project risk matrix (probability-impact matrix) is constructed during risk identification and ranking to visually prioritize risks based on their likelihood and potential impact. This helps determine which risks need immediate attention. Other methods like NPV analysis, cost-benefit analysis, risk profile analysis, or decision trees do not require constructing a risk matrix as their primary tool."
+ },
+ {
+  "wk": 3,
+  "n": 8,
+  "stem": "In Cost-Benefit Analysis method for risk evaluation, it is required",
+  "opts": [
+   "to categorize the projects as high, medium or low risk projects using a scoring method and assign an appropriate risk premium for each category",
+   "to evaluate whether the risk is important and, decide on a suitable course of action",
+   "to construct risk profiles using sensitive analysis",
+   "to construct a project risk matrix",
+   "to consider each possible outcome and estimate the probability of its occurring and the corresponding value of the outcome"
+  ],
+  "ans": [
+   4
+  ],
+  "ca": "e. to consider each possible outcome and estimate the probability of its\noccurring and the corresponding value of the outcome",
+  "sol": "In Cost-Benefit Analysis (CBA) for risk evaluation, the standard approach is to consider each possible outcome, estimate its probability of occurrence, and assign a corresponding monetary value to it. This allows calculation of Expected Monetary Value (EMV), which adjusts the benefits and costs for risk. Constructing risk profiles, risk matrices, or categorizing projects by risk premium are associated with other risk techniques, not the core of CBA."
+ },
+ {
+  "wk": 3,
+  "n": 9,
+  "stem": "Innovative partnerships contain the projects",
+  "opts": [
+   "that an organization undertakes within a particular planning cycle",
+   "implementing a single strategy",
+   "performing the activities of identifying common infrastructure and its implementation and maintenance",
+   "involved in developing new innovative products based on some research",
+   "based on collaboration by different organizations"
+  ],
+  "ans": [
+   4
+  ],
+  "ca": "e. based on collaboration by different organizations",
+  "sol": "Innovative partnerships are defined by collaboration between different organizations—such as companies, research institutions, or universities—to jointly develop new products, share risks, and combine resources and expertise. While option (d) mentions developing innovative products, it lacks the essential element of cross-organizational collaboration, which is the defining feature of innovative partnerships."
+ },
+ {
+  "wk": 3,
+  "n": 10,
+  "stem": "Which of the following statements is NOT generally true about a programme manager managing multiple concurrent projects?",
+  "opts": [
+   "They are responsible for coordinating several projects at the same time.",
+   "They typically maintain impersonal relationships with skilled resources.",
+   "They seek to minimize the overall demand for resources across projects.",
+   "They often view projects as having distinct objectives and characteristics.",
+   "They strive to optimize the utilization of resources across concurrent projects."
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. They typically maintain impersonal relationships with skilled resources.",
+  "sol": "Programme managers managing multiple concurrent projects generally build strong, collaborative, and personal relationships with skilled resources to secure their commitment, motivation, and availability—not impersonal ones. The other statements (a, c, d, and e) are generally true: they coordinate multiple projects, seek to minimize resource demand, view projects as distinct, and optimize resource utilization across the portfolio. Thus, (b) is the statement that is NOT generally true."
+ },
+ {
+  "wk": 4,
+  "n": 1,
+  "stem": "How many hours is a person month?",
+  "opts": [
+   "122",
+   "132",
+   "142",
+   "152",
+   "162",
+   "172",
+   "720"
+  ],
+  "ans": [
+   3
+  ],
+  "ca": "d. 152",
+  "sol": "A person-month is a unit of effort representing the work done by one person in one month. COCOMO II and many project management standards assume 152 hours per person-month (based on 19 working days × 8 hours/day)."
+ },
+ {
+  "wk": 4,
+  "n": 2,
+  "stem": "Which of the following software effort estimation methods is most suitable when an existing software system is being modified or enhanced?",
+  "opts": [
+   "Parametric Models",
+   "Expert Judgment Technique",
+   "Analogy-Based Method",
+   "Price-to-Win Method",
+   "Similarity-Based Method"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. Analogy-Based Method",
+  "sol": "When modifying or enhancing an existing system, the most suitable estimation method is one that compares the proposed changes to similar modifications made previously in the same system or in comparable projects. The Analogy-Based Method does exactly that — it uses historical data from past, similar work to estimate effort for the new changes."
+ },
+ {
+  "wk": 4,
+  "n": 3,
+  "stem": "Which one of the following is a key advantage of the Delphi estimation technique compared to estimation by a single expert?",
+  "opts": [
+   "It is largely free from the bias of any individual expert.",
+   "It always produces a quantitative estimate.",
+   "It explicitly accounts for project-specific peculiarities.",
+   "It considers that different system components may have different complexities.",
+   "It requires significantly less time and effort than expert estimation."
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. It is largely free from the bias of any individual expert",
+  "sol": "The Delphi estimation technique (including Wideband Delphi) involves multiple experts providing anonymous estimates in iterative rounds, with feedback and revision between rounds. Its key advantage over a single expert is that it reduces individual bias, groupthink, and the undue influence of dominant personalities, leading to a more balanced and reliable estimate."
+ },
+ {
+  "wk": 4,
+  "n": 4,
+  "stem": "Which one of the followings is NOT a limitation of algorithmic estimation models?",
+  "opts": [
+   "They lack effective mechanisms to account for exceptional situations, such as outstanding teamwork or an unusually good match between skills and tasks.",
+   "They can be calibrated using data from past projects to improve estimation accuracy.",
+   "Inaccurate size estimates or cost-driver ratings can lead to unreliable effort estimates.",
+   "Some important factors, such as experience and team cohesion, are difficult to quantify accurately.",
+   "They may not adequately capture qualitative aspects of the development environment."
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. They can be calibrated using data from past projects to improve estimation\naccuracy.",
+  "sol": "It is actually an advantage or feature of algorithmic models. Calibration improves accuracy, which is a strength, not a drawback."
+ },
+ {
+  "wk": 4,
+  "n": 5,
+  "stem": "Consider a transaction project of 90,000 lines of code. Productivity is about 500 SLOC/person- month. What will be the effort required to develop the project?",
+  "opts": [
+   "60 person-month",
+   "90 person-month",
+   "120 person-month",
+   "180 person-month",
+   "240 person-month",
+   "300 person-month",
+   "500 person-month"
+  ],
+  "ans": [
+   3
+  ],
+  "ca": "d. 180 person-month",
+  "sol": "Effort = Size / Productivity Size = 90,000 SLOC Productivity = 500 SLOC/person-month Effort=90,000500=180 person-monthsEffort=50090,000​=180 person-months"
+ },
+ {
+  "wk": 4,
+  "n": 6,
+  "stem": "Which one of the followings is NOT true regarding function points?",
+  "opts": [
+   "independent of the language, tools, or methodologies used for implementation",
+   "based on the user’s external view of the system",
+   "measure functionality that the user requests and receives",
+   "can be estimated early in analysis and design",
+   "computed from the code implementing the requirements"
+  ],
+  "ans": [
+   4
+  ],
+  "ca": "e. computed from the code implementing the requirements",
+  "sol": "Function points are a size metric based on the functional requirements of the system as seen from the user's perspective. They are intentionally designed to be independent of implementation details such as programming language, tools, or actual code."
+ },
+ {
+  "wk": 4,
+  "n": 7,
+  "stem": "Which one of the followings is NOT a key component in function point analysis?",
+  "opts": [
+   "Number of Inputs",
+   "Number of Outputs",
+   "Number of Inquiries",
+   "Number of Interfaces",
+   "Number of Operations"
+  ],
+  "ans": [
+   4
+  ],
+  "ca": "e. Number of Operations",
+  "sol": "Number of Operations is not a standard component in function point analysis. \"Operations\" is more relevant to object-oriented metrics (e.g., number of methods) or UML, not to function points."
+ },
+ {
+  "wk": 4,
+  "n": 8,
+  "stem": "In a software project, if the degree of influence (DI) for each of the 14 General System Characteristics is 5, then what will be value of VAF (Value Adjustment Factor), using Function Point analysis?",
+  "opts": [
+   "1.07",
+   "1.21",
+   "2.07",
+   "2.21",
+   "1.35",
+   "70"
+  ],
+  "ans": [
+   4
+  ],
+  "ca": "e. 1.35",
+  "sol": "VAF=0.65+70/100​=0.65+0.70=1.35 where, total degree influence, TDI=14×5=70"
+ },
+ {
+  "wk": 4,
+  "n": 9,
+  "stem": "Which of the followings are limitations of function point analysis?",
+  "opts": [
+   "It does not consider algorithmic complexity of a function",
+   "It is hard to fudge",
+   "It is language independent",
+   "It is understandable by clients",
+   "It requires extensive training"
+  ],
+  "ans": [
+   0,
+   4
+  ],
+  "ca": "a. It does not consider algorithmic complexity of a function\ne. It requires extensive training",
+  "sol": "Function point analysis does not account for internal algorithmic complexity, making it less accurate for highly complex functions, and it demands significant training to apply consistently. In contrast, being language-independent, hard to manipulate, and understandable to clients are considered strengths, not limitations."
+ },
+ {
+  "wk": 4,
+  "n": 10,
+  "stem": "Consider a project with the following functional units: 80 user inputs, 60 user outputs, 50 user enquiries, 10 user files, 7 external interfaces. What will be the unadjusted function points for the project?",
+  "opts": [
+   "769",
+   "869",
+   "969",
+   "1069",
+   "1169"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. 969",
+  "sol": "Using standard IFPUG average complexity weights: External Inputs (EI): 80 × 4 = 320 External Outputs (EO): 60 × 5 = 300 External Inquiries (EQ): 50 × 4 = 200 Internal Logical Files (ILF): 10 × 10 = 100 External Interface Files (EIF): 7 × 7 = 49 Total UFP = 320 + 300 + 200 + 100 + 49 = 969"
+ },
+ {
+  "wk": 5,
+  "n": 1,
+  "stem": "Which of the followings are NOT examples of expert judgment-based technique?",
+  "opts": [
+   "Basic expert judgement",
+   "Weighted average estimating",
+   "Delphi cost estimation",
+   "COCOMO",
+   "Consensus estimating",
+   "Halstead’s software science"
+  ],
+  "ans": [
+   3,
+   5
+  ],
+  "ca": "d. COCOMO\nf. Halstead’s software science",
+  "sol": "Expert judgment techniques rely on human expertise, experience, and consensus—examples include basic expert judgement, weighted average estimating, Delphi, and consensus estimating. COCOMO is an algorithmic model based on mathematical formulas, and Halstead’s software science is an analytical metric based on operators and operands; neither uses expert judgment as their primary mechanism."
+ },
+ {
+  "wk": 5,
+  "n": 2,
+  "stem": "Which of the followings are examples of organic project?",
+  "opts": [
+   "Accounting system",
+   "Compilers",
+   "Operating systems",
+   "Real-time systems",
+   "Student Information System",
+   "Linkers"
+  ],
+  "ans": [
+   0,
+   4
+  ],
+  "ca": "a. Accounting system\ne. Student Information System",
+  "sol": "In the COCOMO model, organic projects are small, simple, and well-understood, with experienced teams and flexible requirements—typical examples include accounting systems and student information systems. Compilers and linkers are semi-detached, while operating systems and real-time systems are embedded due to their complexity and tight constraints."
+ },
+ {
+  "wk": 5,
+  "n": 3,
+  "stem": "In intermediate COCOMO, if there are stringent reliability requirements on the product, then the initial cost and effort estimates obtained by the basic COCOMO, are",
+  "opts": [
+   "scaled downwards",
+   "scaled upwards",
+   "remained unchanged",
+   "potentially decreased",
+   "halved"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. scaled upwards",
+  "sol": "In intermediate COCOMO, the cost driver RELY (required software reliability) has a value greater than 1.0 for stringent reliability requirements (e.g., High = 1.15, Very High = 1.30). This multiplies the basic COCOMO estimate by an Effort Adjustment Factor (EAF) > 1.0, thus scaling the effort and cost upwards—not downward, unchanged, decreased, or halved."
+ },
+ {
+  "wk": 5,
+  "n": 4,
+  "stem": "A distributed decision support System (DSS) for an organization having offices at several places across the country has the following modules: a database module, a graphical user interface (GUI) module and a communication module. Which of the following COCOMO models will be best suitable for estimating the development cost?",
+  "opts": [
+   "Basic COCOMO",
+   "Intermediate COCOMO",
+   "COCOMO 81",
+   "Detailed (Complete) COCOMO",
+   "All of these"
+  ],
+  "ans": [
+   3
+  ],
+  "ca": "d. Detailed (Complete) COCOMO",
+  "sol": "A distributed DSS with database, GUI, and communication modules involves different types of components, each with its own complexity, cost drivers, and development environment. The Detailed (Complete) COCOMO model is best suited because it allows estimating effort module by module (with phase-level and module-level cost drivers) and then summing them, providing greater accuracy than Basic or Intermediate COCOMO, which apply uniform cost drivers to the entire project."
+ },
+ {
+  "wk": 5,
+  "n": 5,
+  "stem": "Which one of the following COCOMO II sub-models would be used when requirements are available but design has not yet started?",
+  "opts": [
+   "Application composition",
+   "Early design",
+   "Reuse",
+   "Post-architecture",
+   "Application configuration"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. Early design",
+  "sol": "The Early design sub-model of COCOMO II is specifically used when requirements are known but the detailed software design and architecture have not yet been completed. It uses fewer cost drivers (7 instead of 17) and provides a coarse estimate based on function points or KSLOC. Application composition is for very early prototyping, reuse is for estimating effort to integrate reused components, and post-architecture applies once the architecture is fully defined."
+ },
+ {
+  "wk": 5,
+  "n": 6,
+  "stem": "Post-architecture model of COCOMO II is primarily used for",
+  "opts": [
+   "systems developed using dynamic languages, DB programming etc.",
+   "initial effort estimation based on system requirements and design options",
+   "computing the effort to integrate the reusable components or automatically generated code",
+   "estimating the development effort based on system design specification",
+   "Evaluating the impact of project cost drivers and scale factors on the final effort estimate"
+  ],
+  "ans": [
+   3,
+   4
+  ],
+  "ca": "d. estimating the development effort based on system design specification\ne. Evaluating the impact of project cost drivers and scale factors on the final\neffort estimate",
+  "sol": "The Post-Architecture model of COCOMO II is primarily used for estimating development effort based on the system design specification (d), as it leverages detailed size inputs and 17 cost drivers once the architecture is stable. Additionally, it serves to evaluate the impact of project cost drivers and scale factors (e) by allowing managers to adjust parameters like team capability or reliability requirements and observe their effect on the final effort estimate, making both options correct and complementary uses of the model."
+ },
+ {
+  "wk": 5,
+  "n": 7,
+  "stem": "Which of the following estimation techniques are based on making an educated guess of the project parameters?",
+  "opts": [
+   "Expert judgement",
+   "Basic COCOMO",
+   "Halstead’s software science",
+   "Delphi cost estimation",
+   "Intermediate COCOMO",
+   "Complete COCOMO"
+  ],
+  "ans": [
+   0,
+   3
+  ],
+  "ca": "a. Expert judgement\nd. Delphi cost estimation",
+  "sol": "Expert judgement and Delphi cost estimation rely on human expertise, experience, and consensus to make informed \"educated guesses\" about project parameters. In contrast, Basic COCOMO, Intermediate COCOMO, Complete COCOMO, and Halstead's software science are algorithmic or analytical models that use fixed mathematical formulas or metrics, not subjective human estimation. ."
+ },
+ {
+  "wk": 5,
+  "n": 8,
+  "stem": "In Halstead’s software science,",
+  "opts": [
+   "the programming effort varies inversely with the volume.",
+   "the programming effort varies linearly with the volume.",
+   "the programming effort varies as the square of the volume.",
+   "the programming effort varies as the cube of the volume.",
+   "the programming effort does not vary with the volume."
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. the programming effort varies as the square of the volume.",
+  "sol": "In Halstead’s software science, programming effort (E) is proportional to the square of the program volume (E∝V2E∝V^2), where volume (VV) measures the information content of the program based on operators and operands. Effort does not vary inversely, linearly, as the cube, or remain unaffected by volume—the quadratic relationship is a core result of Halstead’s metrics."
+ },
+ {
+  "wk": 5,
+  "n": 9,
+  "stem": "Which one of the following is NOT a reason for late project becoming later due to addition of manpower?",
+  "opts": [
+   "Increased communication among team members",
+   "Learning by the added members",
+   "Increased project scope",
+   "Limited scope for parallelizing various project activities",
+   "Additional effort required from experienced team members to train and mentor new members"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. Increased project scope",
+  "sol": "Brooks' Law states that adding manpower to a late project makes it later due to factors like increased communication overhead, learning curves for new members, limited parallelizability of tasks, and training efforts required from experienced staff. Increased project scope, however, is not a consequence of adding manpower—it is a separate decision (scope creep) and not a reason why additional people delay the project."
+ },
+ {
+  "wk": 5,
+  "n": 10,
+  "stem": "Suppose the development time of a small software product has been estimated to be one and half year. Then, in order to develop the product in six months, what will be total increase in development effort? (Use Jensen's model).",
+  "opts": [
+   "3 times",
+   "6 times",
+   "9 times",
+   "12 times",
+   "18 times",
+   "27 times",
+   "81 times"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. 9 times",
+  "sol": "Jensen's model (based on Putnam's software equation) relates effort (E) and time (T) as E∝1/T^2 for a fixed product size. Reducing the schedule from 1.5 years (18 months) to 0.5 years (6 months) gives a time ratio of 18/6=318/6=3. Thus, the effort increases by 3^2=9 times."
+ },
+ {
+  "wk": 6,
+  "n": 1,
+  "stem": "Which of the following statements regarding a Work Breakdown Structure (WBS) are correct?",
+  "opts": [
+   "A WBS represents a hierarchical decomposition of project work.",
+   "A WBS decomposes tasks into smaller subtasks.",
+   "A WBS shows the duration of each activity.",
+   "A WBS helps organize project scope into manageable components.",
+   "A WBS explicitly shows task dependencies."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. A WBS represents a hierarchical decomposition of project work.\nb. A WBS decomposes tasks into smaller subtasks.\nd. A WBS helps organize project scope into manageable components",
+  "sol": "A WBS is a hierarchical decomposition of the total project work into smaller, manageable components (work packages), which helps organize and define the project scope. It decomposes tasks into subtasks but does not show activity durations (that belongs to schedules like Gantt charts) or task dependencies (shown in network diagrams)."
+ },
+ {
+  "wk": 6,
+  "n": 2,
+  "stem": "Which of the following statements regarding an Activity Network are correct?",
+  "opts": [
+   "It cannot represent concurrent activities.",
+   "An Activity Network depicts the flow of project tasks.",
+   "It is primarily used to define software requirements.",
+   "It can show task dependencies.",
+   "It can represent task sequence relationships."
+  ],
+  "ans": [
+   1,
+   3,
+   4
+  ],
+  "ca": "b. An Activity Network depicts the flow of project tasks.\nd. It can show task dependencies.\ne. It can represent task sequence relationships",
+  "sol": "An Activity Network (e.g., PERT or CPM) depicts the logical flow and sequence of project tasks, clearly showing task dependencies and relationships (e.g., finish-to-start). It can also represent concurrent activities using parallel paths, so option (a) is false. It is used for project scheduling, not for defining software requirements, making option (c) incorrect."
+ },
+ {
+  "wk": 6,
+  "n": 3,
+  "stem": "Which of the following pieces of information is typically represented in a WBS?",
+  "opts": [
+   "Major project deliverables.",
+   "Critical path information.",
+   "Subtasks associated with project activities.",
+   "Activity durations.",
+   "Hierarchical relationships among work items."
+  ],
+  "ans": [
+   0,
+   2,
+   4
+  ],
+  "ca": "a. Major project deliverables\nc. Subtasks associated with project activities\ne. Hierarchical relationships among work items",
+  "sol": "A WBS typically represents major project deliverables, subtasks (work packages) associated with project activities, and hierarchical relationships among work items. It does not include critical path information (shown in network diagrams) or activity durations (shown in schedules like Gantt charts)."
+ },
+ {
+  "wk": 6,
+  "n": 4,
+  "stem": "Which statements about the critical path are true?",
+  "opts": [
+   "It always includes the maximum number of activities.",
+   "It is a path from project start to finish.",
+   "It determines the minimum project duration.",
+   "It always contains all project tasks.",
+   "Delays on critical activities may delay the project."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. It is a path from project start to finish.\nc. It determines the minimum project duration\ne. Delays on critical activities may delay the project",
+  "sol": "The critical path is the longest sequence of dependent activities from project start to finish, and it determines the minimum project duration. Delaying any critical activity will delay the project unless corrective action is taken. It does not necessarily contain the maximum number of activities (duration matters more), and it never includes all project tasks—only those with zero slack."
+ },
+ {
+  "wk": 6,
+  "n": 5,
+  "stem": "What can be the effect of the delay of an activity in the critical path?",
+  "opts": [
+   "The project completion date may be delayed.",
+   "The critical path may change.",
+   "The project duration is guaranteed to remain unchanged.",
+   "The delay is always absorbed by slack time.",
+   "Corrective actions may be required."
+  ],
+  "ans": [
+   0,
+   1,
+   4
+  ],
+  "ca": "a. The project completion date may be delayed.\nb. The critical path may change.\ne. Corrective actions may be required",
+  "sol": "Delaying a critical-path activity directly threatens the project completion date (a), may cause the critical path to shift to another sequence of activities (b), and typically forces the project manager to take corrective actions such as crashing or fast-tracking to recover (e). Critical activities have zero slack, so the delay is never absorbed by slack time (d), and the project duration is not guaranteed to remain unchanged (c)."
+ },
+ {
+  "wk": 6,
+  "n": 6,
+  "stem": "Which activities have zero float (slack) in the network in the above PERT chart?",
+  "opts": [
+   "A",
+   "B",
+   "E (Recruit staff)",
+   "F (Draft office procedures)",
+   "G (Install and test)"
+  ],
+  "ans": [
+   2,
+   3
+  ],
+  "ca": "c. E (Recruit staff)\nd. F (Draft office procedures)",
+  "sol": "E (Recruit staff) ES=0, DUR=10, EF=10 LS=0, SL=0, LF=10 F (Draft office procedures) ES=10, DUR=3, EF=13 LS=10, SL=0, LF=13"
+ },
+ {
+  "wk": 6,
+  "n": 7,
+  "stem": "Which of the following activities are on the critical path in the given PERT chart diagram?",
+  "opts": [
+   "A",
+   "E (Recruit staff)",
+   "F (Draft office procedures)",
+   "C",
+   "G"
+  ],
+  "ans": [
+   1,
+   2
+  ],
+  "ca": "b. E (Recruit staff)\nc. F (Draft office procedures)",
+  "sol": "The critical path is the longest path from start to finish with zero slack: E (Recruit staff) → F (Draft office procedures). No other activities are on the critical path because they have positive slack and are not required to be completed on the critical timeline. ."
+ },
+ {
+  "wk": 6,
+  "n": 8,
+  "stem": "Suppose activity D is delayed by 2 weeks while all other activities remain unchanged in the above PERT chart diagram. Which statements are true?",
+  "opts": [
+   "Activity G must start at week 11.",
+   "D will finish at week 10.",
+   "The project completion time remains 13 weeks.",
+   "D will still not be on the critical path.",
+   "The float of D becomes 1 week."
+  ],
+  "ans": [
+   1,
+   2,
+   3
+  ],
+  "ca": "b. D will finish at week 10.\nc. The project completion time remains 13 weeks.\nd. D will still not be on the critical path",
+  "sol": "D will finish at 10 (8+2) where the completion will remain 13 as both EF =LF=13, and D will still not be on the critical path."
+ },
+ {
+  "wk": 6,
+  "n": 9,
+  "stem": "Which statements about CPM/PERT are correct?",
+  "opts": [
+   "Activities with larger durations always have larger float.",
+   "Forward pass computes earliest times.",
+   "All activities can have non-zero float.",
+   "Critical-path activities have positive float.",
+   "Backward pass computes latest times.",
+   "Float = LS − ES."
+  ],
+  "ans": [
+   1,
+   4,
+   5
+  ],
+  "ca": "b. Forward pass computes earliest times.\ne. Backward pass computes latest times.\nf. Float = LS − ES.",
+  "sol": "In CPM/PERT, the forward pass calculates earliest start and finish times (b), while the backward pass calculates latest start and finish times (e). Float (slack) is correctly computed as LS − ES (or LF − EF) (f). Larger duration does not guarantee larger float (a), critical activities have zero float (d), and not all activities can have non-zero float—critical ones have zero (c)."
+ },
+ {
+  "wk": 6,
+  "n": 10,
+  "stem": "Given an activity with Earliest Start (ES) = 5 days, Latest Finish (LF) = 30 days, and Duration = 10 days, which of the following are true?",
+  "opts": [
+   "Earliest Finish (EF) = 15 days",
+   "Float = 20 days",
+   "Latest Start (LS) = 20 days",
+   "Float = 15 days",
+   "Latest Start (LS) = 25 day"
+  ],
+  "ans": [
+   0,
+   2,
+   3
+  ],
+  "ca": "a. Earliest Finish (EF) = 15 days\nc. Latest Start (LS) = 20 days\nd. Float = 15 days",
+  "sol": "EF = ES + Duration = 5 + 10 = 15 days → (a) is true. LS = LF − Duration = 30 − 10 = 20 days → (c) is true, (e) is false. Float = LS − ES = 20 − 5 = 15 days → (d) is true, (b) is false. Thus, the correct statements are a, c, and d."
+ },
+ {
+  "wk": 7,
+  "n": 1,
+  "stem": "If the optimistic estimate is 4 days, the most likely estimate is 10 days, and the pessimistic estimate is 16 days, which of the following statements are correct?",
+  "opts": [
+   "Expected time is 10 days.",
+   "Variance is 4.",
+   "Standard deviation is 2.",
+   "Expected time is 12 days.",
+   "Variance is 2."
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "ca": "a. Expected time is 10 days.\nb. Variance is 4.\nc. Standard deviation is 2",
+  "sol": "Expected time (TE) = (O + 4M + P) / 6 = (4 + 4×10 + 16) / 6 = 60/6 = 10 days → (a) is true, (d) is false. Variance (V) = ((P − O) / 6)² = ((16 − 4) / 6)² = (12/6)² = 2² = 4 → (b) is true, (e) is false. Standard deviation (SD) = √V = √4 = 2 → (c) is true."
+ },
+ {
+  "wk": 7,
+  "n": 2,
+  "stem": "A project manager is asked to deliver a project earlier than planned. Which actions are consistent with project crashing?",
+  "opts": [
+   "Increase the duration of critical activities.",
+   "Add more skilled personnel to critical tasks.",
+   "Use faster equipment or tools for critical activities.",
+   "Reduce the scope of the project.",
+   "Assign overtime to critical-path activities."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Add more skilled personnel to critical tasks.\nc. Use faster equipment or tools for critical activities.\ne. Assign overtime to critical-path activities",
+  "sol": "Project crashing is a schedule compression technique that aims to shorten the project duration without changing scope by adding resources or increasing efficiency, typically on critical-path activities. Adding skilled personnel (b), using faster tools/equipment (c), and assigning overtime (e) are classic crashing actions. Increasing activity duration (a) would lengthen the project, and reducing scope (d) is not part of standard crashing—it is scope reduction, not crashing."
+ },
+ {
+  "wk": 7,
+  "n": 3,
+  "stem": "Which of the following conclusions are consistent with the Hawthorne Effect?",
+  "opts": [
+   "Human factors play a role in workplace productivity.",
+   "Worker productivity is independent of observation",
+   "Employee performance can be influenced by perceived interest from management.",
+   "Lighting conditions are the sole determinant of productivity.",
+   "Being part of a study may affect worker behavior."
+  ],
+  "ans": [
+   0,
+   2,
+   4
+  ],
+  "ca": "a. Human factors play a role in workplace productivity\nc. Employee performance can be influenced by perceived interest from\nmanagement\ne. Being part of a study may affect worker behavior",
+  "sol": "The Hawthorne Effect shows that workers' productivity is influenced by being observed and by perceived management interest, not just by physical conditions like lighting. This confirms that human factors (a), management attention (c), and awareness of being studied (e) all affect behavior. Observation does affect productivity (b is false), and lighting is not the sole determinant (d is false)."
+ },
+ {
+  "wk": 7,
+  "n": 4,
+  "stem": "Which of the following statements about a functional organization are true?",
+  "opts": [
+   "Functional organizations eliminate the need for management layers.",
+   "Functional groups often follow a pyramidal structure.",
+   "Functional organizations discourage technical specialization.",
+   "Functional organizations are commonly found in military, police, and hospitals.",
+   "Individuals are grouped according to specialized functions."
+  ],
+  "ans": [
+   1,
+   3,
+   4
+  ],
+  "ca": "b. Functional groups often follow a pyramidal structure.\nd. Functional organizations are commonly found in military, police, and\nhospitals\ne. Individuals are grouped according to specialized functions",
+  "sol": "Functional organizations group individuals by specialized functions (e.g., engineering, marketing) and typically follow a pyramidal hierarchy with multiple management layers. They are common in military, police, and hospitals. They do not eliminate management layers (a), nor do they discourage technical specialization—they actually encourage it (c)."
+ },
+ {
+  "wk": 7,
+  "n": 5,
+  "stem": "According to Belbin, which of the following statements are correct?",
+  "opts": [
+   "An eligible candidate has the required qualifications.",
+   "A suitable candidate is capable of performing the job effectively.",
+   "Eligibility and suitability always imply the same thing.",
+   "A person may be eligible but not suitable.",
+   "A suitable candidate can never lack formal qualifications."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. An eligible candidate has the required qualifications.\nb. A suitable candidate is capable of performing the job effectively\nd. A person may be eligible but not suitable",
+  "sol": "Belbin distinguishes eligibility (formal qualifications, experience) from suitability (behavioral attributes, team fit, and capability to perform effectively). A candidate can be eligible but not suitable (e.g., highly qualified but poor collaborator), and eligibility and suitability are not the same. Suitability does not require formal qualifications, so option (e) is false. Thus, a, b, and d are correct."
+ },
+ {
+  "wk": 7,
+  "n": 6,
+  "stem": "Which of the following statements are consistent with Maslow's theory of motivation?",
+  "opts": [
+   "Food and shelter are examples of higher-level needs.",
+   "Human needs can be arranged in a hierarchy.",
+   "Higher-level needs emerge as lower-level needs are fulfilled.",
+   "All individuals are motivated by exactly the same needs.",
+   "Self-actualization is at the highest level of the hierarchy."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Human needs can be arranged in a hierarchy.\nc. Higher-level needs emerge as lower-level needs are fulfilled\ne. Self-actualization is at the highest level of the hierarchy",
+  "sol": "Maslow's theory proposes a hierarchy of human needs, where lower-level needs (physiological, safety) must be substantially satisfied before higher-level needs (esteem, self- actualization) emerge as motivators. Food and shelter are lower-level, not higher-level (a), and individuals differ in which needs they are pursuing (d). Self-actualization is indeed the highest level (e). Thus, b, c, and e are correct."
+ },
+ {
+  "wk": 7,
+  "n": 7,
+  "stem": "Which statements correctly distinguish organization structure from team structure?(doubt on option a)",
+  "opts": [
+   "Organization structure focuses on teams within the organization.",
+   "Team structure focuses on individuals within a team.",
+   "Team structure determines how organizations are divided into departments.",
+   "Organization structure and team structure operate at different levels.",
+   "Team structure is unrelated to the arrangement of individuals."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. Organization structure focuses on teams within the organization.\nb. Team structure focuses on individuals within a team.\nd. Organization structure and team structure operate at different levels.",
+  "sol": "Organization structure operates at the macro level, defining how the entire enterprise is divided into departments, reporting lines, and teams—making option (a) correct. Team structure works at the micro level, focusing on the roles and relationships of individuals within a specific team (b), and the two structures function at fundamentally different levels of analysis (d)."
+ },
+ {
+  "wk": 7,
+  "n": 8,
+  "stem": "According to Herzberg, motivators are factors that:",
+  "opts": [
+   "Make the job feel worthwhile.",
+   "Create a sense of achievement.",
+   "Eliminate all dissatisfaction.",
+   "Increase job satisfaction.",
+   "Include working conditions."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. Make the job feel worthwhile.\nb. Create a sense of achievement.\nd. Increase job satisfaction",
+  "sol": "According to Herzberg's Two-Factor Theory, motivators (intrinsic factors like achievement, recognition, and meaningful work) make the job feel worthwhile (a), create a sense of achievement (b), and directly increase job satisfaction (d). They do not eliminate dissatisfaction— that is the role of hygiene factors (c), and working conditions are hygiene factors, not motivators (e)."
+ },
+ {
+  "wk": 7,
+  "n": 9,
+  "stem": "Which of the following statements are consistent with the Oldham–Hackman model?(doubt on option c)",
+  "opts": [
+   "A job requiring multiple skills may be perceived as more meaningful.",
+   "Seeing a whole piece of work contributes to task identity.",
+   "Understanding the importance of one's work relates to task significance.",
+   "Motivation depends solely on financial rewards.",
+   "Feedback can enhance job satisfaction."
+  ],
+  "ans": [
+   0,
+   1,
+   4
+  ],
+  "ca": "a. A job requiring multiple skills may be perceived as more meaningful.\nb. Seeing a whole piece of work contributes to task identity.\ne. Feedback can enhance job satisfaction.",
+  "sol": "In the Oldham–Hackman model, skill variety (a) makes work feel more meaningful by engaging multiple talents, task identity (b) enhances meaning by allowing workers to see a complete, identifiable piece of work, and feedback (e) directly improves job satisfaction by providing clear information about performance. These are three of the five core job characteristics that foster intrinsic motivation, while the model does not rely on financial rewards alone, and task significance is specifically about the job's impact on others—not merely understanding importance."
+ },
+ {
+  "wk": 7,
+  "n": 10,
+  "stem": "Which of the following are ways in which good project management can reduce stress?",
+  "opts": [
+   "Providing realistic effort estimates.",
+   "Reducing unexpected crises through better control.",
+   "Increasing uncertainty about responsibilities.",
+   "Reducing role ambiguity.",
+   "Encouraging conflicting responsibilities."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. Providing realistic effort estimates.\nb. Reducing unexpected crises through better control\nd. Reducing role ambiguity",
+  "sol": "Good project management reduces stress by setting realistic effort estimates (a), minimizing unexpected crises through proactive control (b), and clarifying roles to reduce ambiguity (d). In contrast, increasing uncertainty about responsibilities (c) and encouraging conflicting responsibilities (e) would heighten stress, not reduce it."
+ },
+ {
+  "wk": 8,
+  "n": 1,
+  "stem": "In the context of resource allocation, which one of the followings is true regarding resource schedule?",
+  "opts": [
+   "It indicates the planned start and completion dates for each activity",
+   "It indicates the actual start and completion dates for each activity",
+   "It shows the dates on which each resource will be required and level of that requirement",
+   "It shows the planned cumulative expenditure incurred by the use of resources over time",
+   "It shows the actual expenditure incurred by the use of resources over time",
+   "It usually shows the weekly or monthly costs over the life of the project"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. It shows the dates on which each resource will be required and level of that\nrequirement",
+  "sol": "A resource schedule specifies when each resource (e.g., personnel, equipment, materials) is needed and at what quantity or intensity over the project timeline. It focuses on resource availability and usage, not activity start/end dates (a), actual dates (b), cumulative expenditure (d), actual costs (e), or periodic cost breakdowns (f)—those belong to activity schedules, cost baselines, or financial reports."
+ },
+ {
+  "wk": 8,
+  "n": 2,
+  "stem": "Which one of the followings indicates the planned start and completion dates for each activity?",
+  "opts": [
+   "Activity schedule",
+   "Resource schedule",
+   "Cost schedule",
+   "Time schedule",
+   "Program schedule"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. Activity schedule",
+  "sol": "An activity schedule (often represented as a Gantt chart or project calendar) shows the planned start and completion dates for each individual activity in the project. A resource schedule shows resource requirements over time, a cost schedule tracks costs, and program schedule refers to a broader set of related projects—none of which focus specifically on activity start/end dates. Thus, (a) is the correct answer."
+ },
+ {
+  "wk": 8,
+  "n": 3,
+  "stem": "Which one of the following is not TRUE about resource histograms?",
+  "opts": [
+   "A resource histogram is a representation of the distribution of the resources required over the duration of the project",
+   "The ideal resource histogram should be smooth with an initial build-up and a staged run-down",
+   "Based on the resource histogram, some activities may be delayed to reduce the maximum demand of a resource",
+   "A resource histogram is used to estimate activity durations",
+   "The initial activity network is refined based on the resource histogram"
+  ],
+  "ans": [
+   3
+  ],
+  "ca": "d. A resource histogram is used to estimate activity durations",
+  "sol": "A resource histogram displays the distribution of resource requirements over time, helps in resource leveling (smoothing demand), and can lead to refining the activity network. However, it is not used to estimate activity durations—durations are estimated first using effort, productivity, and dependencies. The histogram is derived from the schedule, not used to create it. Thus, (d) is the statement that is NOT true."
+ },
+ {
+  "wk": 8,
+  "n": 4,
+  "stem": "There is a need to prioritize the activities of a project, because",
+  "opts": [
+   "finding the best allocation of resources is time consuming and difficult.",
+   "allocating a resource to one activity limits the flexibility for resource allocation and scheduling of other activities.",
+   "resources can be allocated to competing activities in some rational order.",
+   "the lower-priority activities can be made to fit around the more critical, already scheduled activities.",
+   "activity prioritization eliminates the need for resource-constrained scheduling."
+  ],
+  "ans": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ca": "a. finding the best allocation of resources is time consuming and difficult.\nb. allocating a resource to one activity limits the flexibility for resource\nallocation and scheduling of other activities.\nc. resources can be allocated to competing activities in some rational order.\nd. the lower-priority activities can be made to fit around the more critical,\nalready scheduled activities.",
+  "sol": "Prioritizing activities is necessary because resource allocation is complex and time-consuming (a), assigning a resource to one task reduces flexibility for others (b), it provides a rational order for competing activities (c), and lower-priority tasks can then be scheduled around critical ones (d). However, prioritization does not eliminate the need for resource-constrained scheduling—it only helps manage it; constraints still exist and must be addressed (e is false)."
+ },
+ {
+  "wk": 8,
+  "n": 5,
+  "stem": "The expenditures incurred in an organization, which cannot be directly related to individual projects or jobs, are known as",
+  "opts": [
+   "Staff cost",
+   "Overheads",
+   "Usage charges",
+   "Service charges",
+   "Materials cost"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. Overheads",
+  "sol": "Overheads are indirect costs that cannot be traced directly to a specific project or job—they support overall operations (e.g., rent, utilities, administrative salaries, insurance). Staff costs, usage charges, service charges, and materials costs are typically direct costs tied to specific activities or projects. Thus, (b) is correct."
+ },
+ {
+  "wk": 8,
+  "n": 6,
+  "stem": "Which one of the followings is the proper scheduling sequence?",
+  "opts": [
+   "activity plan, resource allocation, risk assessment, cost schedule",
+   "activity plan, risk assessment, cost schedule, resource allocation",
+   "activity plan, risk assessment, resource allocation, cost schedule",
+   "activity plan, cost schedule, risk assessment, resource allocation",
+   "activity plan, resource allocation, cost schedule, risk assessment"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. activity plan, risk assessment, resource allocation, cost schedule",
+  "sol": "The logical sequence begins with the activity plan (defining tasks, durations, and dependencies), followed by risk assessment to identify uncertainties that could affect scheduling or resources. Next, resource allocation assigns people and equipment to activities (often requiring adjustments), and finally, the cost schedule is developed based on the allocated resources and timelines. This order ensures that risks are considered before committing resources, and costs are calculated after resource needs are known."
+ },
+ {
+  "wk": 8,
+  "n": 7,
+  "stem": "Which of the followings are examples of oral formal regular reporting method?",
+  "opts": [
+   "Weekly progress meetings",
+   "Monthly progress meetings",
+   "Through progress reports",
+   "Through exception reports",
+   "Social interaction"
+  ],
+  "ans": [
+   0,
+   1
+  ],
+  "ca": "a. Weekly progress meetings\nb. Monthly progress meetings",
+  "sol": "Oral formal regular reporting involves spoken, structured, and scheduled communication—weekly and monthly progress meetings fit this category. Progress reports and exception reports are written, not oral, and social interaction is informal, not formal. Thus, only (a) and (b) are correct."
+ },
+ {
+  "wk": 8,
+  "n": 8,
+  "stem": "Canteen discussion is an example of which category of reporting method?",
+  "opts": [
+   "Oral formal regular",
+   "Oral formal adhoc",
+   "Written formal regular",
+   "Written formal adhoc",
+   "Oral informal adhoc"
+  ],
+  "ans": [
+   4
+  ],
+  "ca": "e. Oral informal adhoc",
+  "sol": "A canteen discussion is spoken (oral), lacks any formal structure or agenda (informal), and happens spontaneously without a fixed schedule (adhoc). Therefore, it falls under oral informal adhoc reporting. It is neither formal, written, nor regular, making all other options incorrect."
+ },
+ {
+  "wk": 8,
+  "n": 9,
+  "stem": "In Red/Amber/Green reporting, Green represents which one of the followings?",
+  "opts": [
+   "The tasks are ‘on target’",
+   "The tasks are ‘not on target but recoverable’",
+   "The tasks are ‘not on target and recoverable only with difficulty’",
+   "The tasks are ‘not on target and not recoverable’",
+   "The tasks have been completed but are awaiting formal approval."
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. The tasks are ‘on target’",
+  "sol": "In Red/Amber/Green (RAG) status reporting, Green indicates that tasks are progressing as planned and on target. Amber means \"not on target but recoverable,\" while Red means \"not on target and recoverable only with difficulty\" or \"not recoverable.\" Thus, (a) is the correct answer."
+ },
+ {
+  "wk": 8,
+  "n": 10,
+  "stem": "Which one of the followings is the proper sequence of activities in the review process?",
+  "opts": [
+   "Planning, Review preparation, Review meeting, Rework and follow up",
+   "Planning, Review meeting, Review preparation, Rework and follow up",
+   "Review preparation, Planning, Review meeting, Rework and follow up",
+   "Review preparation, Review meeting, Planning, Rework and follow up",
+   "Review meeting, Review preparation, Planning, Rework and follow up"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. Planning, Review preparation, Review meeting, Rework and follow up",
+  "sol": "The standard review process follows a logical sequence: Planning (define objectives, select reviewers, schedule), Review preparation (participants examine the work product individually), Review meeting (team discusses findings and identifies defects), and finally Rework and follow up (author fixes issues and moderator verifies corrections). Any other order, such as holding the meeting before preparation or planning, is incorrect. Thus, (a) is the proper sequence."
+ },
+ {
+  "wk": 9,
+  "n": 1,
+  "stem": "When is code review performed during software life cycle?",
+  "opts": [
+   "After unit testing",
+   "After coding and compiling",
+   "During integration testing",
+   "During system testing",
+   "During acceptance testing"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. After coding and compiling",
+  "sol": "Code review is a static testing technique performed after coding and compiling but before dynamic testing (such as unit testing). It is done to find defects early by examining the source code without executing it. Performing it later—during or after integration, system, or acceptance testing—would be too late in the lifecycle. Thus, (b) is the correct answer."
+ },
+ {
+  "wk": 9,
+  "n": 2,
+  "stem": "Cleanroom technique does not use which one of the following activities?",
+  "opts": [
+   "Code walkthrough",
+   "Code inspection",
+   "Formal verification for bug removal",
+   "Testing of code by executing it",
+   "Statistical quality control"
+  ],
+  "ans": [
+   3
+  ],
+  "ca": "d. Testing of code by executing it",
+  "sol": "The Cleanroom software engineering technique emphasizes defect prevention through formal verification (mathematical correctness), code walkthroughs and inspections (static reviews), and statistical quality control (usage-based reliability certification). It deliberately avoids execution- based testing during development—the team does not run the code to find bugs; instead, they rely on formal methods and statistical testing by a separate team for certification. Thus, (d) is the activity not used in Cleanroom."
+ },
+ {
+  "wk": 9,
+  "n": 3,
+  "stem": "Which one of the following is true of a code review meeting?",
+  "opts": [
+   "It seeks to identify errors, the person(s) responsible for the identified errors, and the solutions for the identified errors",
+   "It seeks to identify errors and the person(s) responsible for the identified errors, but does not seek solutions",
+   "It seeks to identify errors, but does not seek solutions or identify the person(s) responsible for the identified errors",
+   "It seeks to identify errors and their cause as well as outlines the solutions",
+   "It seeks to identify errors as well as recommends solutions for the same, but does not attribute blame for the error to anyone in particular."
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. It seeks to identify errors, but does not seek solutions or identify the\nperson(s) responsible for the identified errors",
+  "sol": "A code review meeting focuses on finding defects in the work product, not on fixing them or assigning blame. The goal is to improve quality by identifying errors, while solutions are developed later during rework, and responsibility is not attributed to individuals—the review is about the product, not the producer. Thus, (c) is the correct statement."
+ },
+ {
+  "wk": 9,
+  "n": 4,
+  "stem": "Which of the following charts records and displays the way in which targets have changed throughout the duration of the project?",
+  "opts": [
+   "Gantt chart",
+   "Pie chart",
+   "Timeline chart",
+   "PERT chart",
+   "Flow chart"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. Timeline chart",
+  "sol": "A timeline chart records and displays how project targets, such as milestone dates or deadlines, have changed over the course of the project. It visually tracks the evolution of planned versus actual dates, making it useful for monitoring schedule slips. Gantt charts, PERT charts, pie charts, and flow charts do not serve this specific purpose. Thus, (c) is the correct answer according to your book's terminology."
+ },
+ {
+  "wk": 9,
+  "n": 5,
+  "stem": "The total value credited to a project at any point is known as",
+  "opts": [
+   "the planned value",
+   "the earned value",
+   "the actual cost",
+   "the average cost",
+   "the optimal cost",
+   "total value"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. the earned value",
+  "sol": "In Earned Value Management (EVM), Earned Value (EV) is the value of work actually completed at a given point in time, representing the budgeted cost of that completed work. Planned Value (PV) is the value of work scheduled, Actual Cost (AC) is what has been spent, and the other options are not standard EVM terms. Thus, (b) is correct."
+ },
+ {
+  "wk": 9,
+  "n": 6,
+  "stem": "As part of the implementation of an Employee Payroll Information System project, a number of employee data records have to be manually typed into a database. Which one of the following techniques will be most appropriate for assigning earned value to this project?",
+  "opts": [
+   "The 0/100 technique",
+   "The 50/50 technique",
+   "The 75/25 technique",
+   "The 25/75 technique",
+   "The 100/100 technique",
+   "The milestone technique",
+   "The percentage complete technique"
+  ],
+  "ans": [
+   6
+  ],
+  "ca": "g. The percentage complete technique",
+  "sol": "Manually typing a large number of employee records into a database is a repetitive, quantifiable task where progress can be measured incrementally (e.g., records completed / total records). The percentage complete technique assigns earned value proportionally as work progresses—if 40% of records are typed, 40% of the budgeted value is earned. Fixed- ratio techniques (0/100, 50/50, etc.) or milestone techniques are better suited for discrete, non-divisible deliverables, not for continuous, measurable tasks like data entry. Thus, (g) is the most appropriate choice."
+ },
+ {
+  "wk": 9,
+  "n": 7,
+  "stem": "Suppose the work with a PV of Rs. 55,000 should have been completed by now. Some of that work has not been done, so the EV is only Rs. 45,000. What is the value of Schedule Variance (SV)?",
+  "opts": [
+   "Rs. 10,000",
+   "- Rs. 10,000",
+   "Rs. 1,00,000",
+   "Rs. 5,000",
+   "- Rs. 5,000"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. - Rs. 10,000",
+  "sol": "Schedule Variance (SV) is calculated as: SV=EV−PV Given: EV = Rs. 45,000 PV = Rs. 55,000 SV=45,000−55,000=−10,000"
+ },
+ {
+  "wk": 9,
+  "n": 8,
+  "stem": "Suppose, the work with a PV of Rs. 50,000 should have been completed by now. In fact, some of that work has not been done, so that the EV is only Rs. 40,000. Also, it is given that Rs. 60,000 had actually been spent to get this EV. What is the value of Schedule Performance Index (SPI)?",
+  "opts": [
+   "0.67",
+   "0.75",
+   "0.80",
+   "1.25",
+   "1.20",
+   "0.83"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. 0.80",
+  "sol": "The Schedule Performance Index (SPI) is calculated as: SPI=EV/PV​ Given: EV = Rs. 40,000 PV = Rs. 50,000 SPI=40,000/50,000=0.80"
+ },
+ {
+  "wk": 9,
+  "n": 9,
+  "stem": "A negative CV means that,",
+  "opts": [
+   "the project is over cost",
+   "the project is below cost",
+   "the project is as per the planned cost",
+   "The project is having moderate cost",
+   "no effect on cost"
+  ],
+  "ans": [
+   0
+  ],
+  "ca": "a. the project is over cost",
+  "sol": "In Earned Value Management (EVM), Cost Variance (CV) is calculated as CV = EV − AC. A negative CV means that the actual cost (AC) is higher than the earned value (EV), indicating that the project is over budget (over cost)."
+ },
+ {
+  "wk": 9,
+  "n": 10,
+  "stem": "Assume that a medium-sized project is experiencing considerable schedule slippage. Which of the followings may not help to get the project back on schedule?",
+  "opts": [
+   "Shortening the critical path",
+   "Altering the activity precedence requirements",
+   "Speeding up non-critical path activities",
+   "Reducing scope of the project",
+   "Reducing the quality of the product"
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. Speeding up non-critical path activities",
+  "sol": "Speeding up non-critical path activities does not help recover schedule slippage because these activities have slack/float and do not affect the project's overall completion date—only the critical path determines the project duration. Shortening the critical path (a), altering precedence (b), reducing scope (d), or even temporarily reducing quality (e) could potentially shorten the schedule, though reducing quality is unethical and not recommended. Thus, (c) is the action that may not help."
+ },
+ {
+  "wk": 10,
+  "n": 1,
+  "stem": "Which of the following work products (such as code, design document, code, etc.) associated with the software continually change during the development as well as the maintenance phase?",
+  "opts": [
+   "SRS document",
+   "Data Flow Diagrams",
+   "UML Diagrams",
+   "Code",
+   "Test cases",
+   "All of these"
+  ],
+  "ans": [
+   5
+  ],
+  "ca": "f. All of these",
+  "sol": "During both development and maintenance, all software work products—SRS documents, Data Flow Diagrams, UML diagrams, code, and test cases—are subject to continual change. Requirements evolve, designs are refined, code is updated for bug fixes or enhancements, and test cases are modified to reflect new functionality or changes. Thus, all of these work products change throughout the software life cycle, making (f) the correct answer."
+ },
+ {
+  "wk": 10,
+  "n": 2,
+  "stem": "Which one of the following is an important purpose of software configuration management?",
+  "opts": [
+   "To support efficient customer relationship management such as providing technical help and accepting bug reports",
+   "To avoid maintaining multiple copies of the same project files",
+   "To Keep track of which team member would perform which task and by when",
+   "To manage the workflow across the team members",
+   "To carry out feasibility study of the software to be developed"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. To avoid maintaining multiple copies of the same project files",
+  "sol": "Software Configuration Management (SCM) is primarily concerned with controlling changes and maintaining integrity of software artifacts. A key purpose is to avoid duplication and confusion by centrally managing versions of project files, preventing multiple uncontrolled copies. Customer relationship management (a), task assignment (c), workflow management (d), and feasibility studies (e) are outside the scope of SCM. Thus, (b) is correct."
+ },
+ {
+  "wk": 10,
+  "n": 3,
+  "stem": "Which of the followings are usually NOT a work product category associated with a software development process?",
+  "opts": [
+   "Uncontrolled",
+   "Pre-controlled",
+   "Controlled",
+   "Post-controlled",
+   "Semi-controlled"
+  ],
+  "ans": [
+   3,
+   4
+  ],
+  "ca": "d. Post-controlled\ne. Semi-controlled",
+  "sol": "Standard SCM categories are Uncontrolled, Pre-controlled, and Controlled — representing the state of control over work products. Post-controlled is sometimes used informally but is not a core SCM category, and Semi-controlled is not a recognized term in formal SCM frameworks. Thus, both are usually NOT considered standard work product categories."
+ },
+ {
+  "wk": 10,
+  "n": 4,
+  "stem": "Which one of the following statements is NOT correct regarding SCCS tool?",
+  "opts": [
+   "It stands for Source Code Control System.",
+   "It is a popular configuration management tool on UNIX systems.",
+   "It can be used for controlling and managing different versions of text files.",
+   "It can handle binary files.",
+   "It provides an efficient way of storing versions that minimize the amount of occupied disk space."
+  ],
+  "ans": [
+   3
+  ],
+  "ca": "d. It can handle binary files",
+  "sol": "SCCS (Source Code Control System) is a UNIX-based version control tool designed primarily for text files (like source code). It stores changes efficiently by saving deltas (differences) between versions, which minimizes disk space. However, it does not handle binary files well—binary diffs are not efficiently stored, and SCCS is not suited for binary data. Thus, (d) is the statement that is NOT correct."
+ },
+ {
+  "wk": 10,
+  "n": 5,
+  "stem": "Which of the following project management tools do not support portfolio management?",
+  "opts": [
+   "Ganttproject",
+   "Microsoft Project",
+   "ProjectLibre Desktop",
+   "Primavera",
+   "None of these"
+  ],
+  "ans": [
+   0,
+   2
+  ],
+  "ca": "a. Ganttproject\nc. ProjectLibre Desktop",
+  "sol": "GanttProject and ProjectLibre Desktop are desktop scheduling tools focused on individual project planning and Gantt charts; they lack strategic portfolio management capabilities."
+ },
+ {
+  "wk": 10,
+  "n": 6,
+  "stem": "A system / software which is bought ‘as is’, is known as",
+  "opts": [
+   "Bespoke system",
+   "Off-the-shelf package",
+   "Customized off-the-shelf (COTS) software",
+   "Open source software",
+   "Free software"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. Off-the-shelf package",
+  "sol": "An off-the-shelf package is a software product purchased \"as is,\" with no modifications or only minimal configuration, ready for immediate use. A bespoke system is custom-built, customized COTS involves modifications, and open source/free software refer to licensing, not the \"as is\" purchase model. Thus, (b) is correct."
+ },
+ {
+  "wk": 10,
+  "n": 7,
+  "stem": "In fixed price per unit delivered contracts, how the price is calculated?",
+  "opts": [
+   "The price is fixed when the contract is signed.",
+   "The customer is charged at a fixed rate per unit of effort.",
+   "Function Point (FP) counting is used for calculating the price to be quoted.",
+   "The customer is charged based on the expected time to complete the project and the volume of materials needed.",
+   "The price varies dynamically."
+  ],
+  "ans": [
+   2
+  ],
+  "ca": "c. Function Point (FP) counting is used for calculating the price to be quoted.",
+  "sol": "In a fixed price per unit delivered contract, the total price is determined by multiplying the number of functional units (e.g., function points) by a fixed rate per unit. Function Point counting is commonly used to measure the size of the software to be delivered, which then forms the basis for quoting the price. The price is not fixed upfront (a), nor is it based on effort (b), time and materials (d), or dynamic variation (e). Thus, (c) is correct."
+ },
+ {
+  "wk": 10,
+  "n": 8,
+  "stem": "Which one of the following occurs in restricted tendering process?",
+  "opts": [
+   "Any supplier can bid in response to the invitation to tender",
+   "Bids are received only from those suppliers who have been specifically invited",
+   "Bids are received only from the local suppliers",
+   "Negotiation is made with only one supplier",
+   "Negotiation is made with a group of suppliers"
+  ],
+  "ans": [
+   1
+  ],
+  "ca": "b. Bids are received only from those suppliers who have been specifically\ninvited",
+  "sol": "In restricted tendering (also called selective tendering), only a limited number of pre-qualified suppliers are invited to submit bids. This contrasts with open tendering (a), where any supplier can bid; local supplier restrictions (c) are not the basis; and negotiation with one supplier (d) or a group (e) describes single-source or negotiated tendering, not restricted tendering. Thus, (b) is correct."
+ },
+ {
+  "wk": 10,
+  "n": 9,
+  "stem": "Which of the following are NOT services?",
+  "opts": [
+   "Equipment",
+   "Training",
+   "Documentation",
+   "Consumables",
+   "Transitional insurance arrangements",
+   "Providing telecommunication facilities",
+   "All of these"
+  ],
+  "ans": [
+   0,
+   2
+  ],
+  "ca": "a. Equipment\nc. Consumables",
+  "sol": "Services are intangible activities performed for a client—training, documentation (if custom- created), insurance arrangements, and providing telecom facilities all fall under services. Equipment and consumables (e.g., paper, ink, screws) are tangible physical goods, not services. Thus, (a) and (d) are correct. If your book treats documentation as a product rather than a service, it could also be included, but equipment and consumables are the clearest non-services."
+ },
+ {
+  "wk": 10,
+  "n": 10,
+  "stem": "Which of the following are important reasons for not properly closing the projects?",
+  "opts": [
+   "Lack of interest by the project team",
+   "Underestimation of how fast know-how can get lost",
+   "Emotional factors",
+   "Indecision regarding project closure",
+   "Availability of a well-defined project closure process"
+  ],
+  "ans": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ca": "a. Lack of interest by the project team\nb. Underestimation of how fast know-how can get lost\nc. Emotional factors\nd. Indecision regarding project closure",
+  "sol": "Projects often fail to close properly due to team disinterest (a), underestimation of knowledge loss (b), emotional attachment (c), and indecision about when or how to close (d). In contrast, a well- defined project closure process (e) helps ensure proper closure—it is a solution, not a cause of improper closure. Thus, (a), (b), (c), and (d) are correct."
+ },
+ {
+  "wk": 11,
+  "n": 1,
+  "stem": "Which of the following are desirable characteristics of good software?",
+  "opts": [
+   "Huge size of code base",
+   "Correctness",
+   "Reliability",
+   "Usability",
+   "Hardware dependence"
+  ],
+  "ans": [
+   1,
+   2,
+   3
+  ],
+  "ca": "b. Correctness\nc. Reliability\nd. Usability",
+  "sol": "Desirable characteristics of good software include correctness (performs functions accurately), reliability (operates without failure under specified conditions), and usability (easy to learn and use). A huge code base (a) indicates complexity and higher maintenance costs, and hardware dependence (e) reduces portability—both are undesirable."
+ },
+ {
+  "wk": 11,
+  "n": 2,
+  "stem": "Which statements regarding ISO 9001 are correct?",
+  "opts": [
+   "It mandates the use of a specific programming language.",
+   "It guarantees defect-free products.",
+   "It emphasizes management responsibility.",
+   "It requires a quality system to be established.",
+   "It includes process control requirements."
+  ],
+  "ans": [
+   2,
+   3,
+   4
+  ],
+  "ca": "c. It emphasizes management responsibility.\nd. It requires a quality system to be established.\ne. It includes process control requirements.",
+  "sol": "ISO 9001 is a quality management system standard that focuses on processes, not specific technical outcomes. It emphasizes management responsibility (c), requires a documented quality system (d), and includes process control requirements (e). It does not mandate programming languages (a) or guarantee defect-free products (b)."
+ },
+ {
+  "wk": 11,
+  "n": 3,
+  "stem": "Which statements about ISO 9001 certification are correct?",
+  "opts": [
+   "Certification indicates that documented procedures are followed.",
+   "Certification automatically improves software reliability.",
+   "Certification alone does not guarantee product quality.",
+   "A certified organization may still have an ineffective process.",
+   "Certification removes the need for management oversight"
+  ],
+  "ans": [
+   0,
+   2,
+   3
+  ],
+  "ca": "a. Certification indicates that documented procedures are followed.\nc. Certification alone does not guarantee product quality.\nd. A certified organization may still have an ineffective process",
+  "sol": "ISO 9001 certification confirms that an organization follows documented procedures (a), but it does not guarantee product quality (c) or reliability (b)—it only ensures processes are defined and followed, not that they are optimal. A certified organization can still have ineffective processes (d), and certification does not remove the need for management oversight (e)—in fact, it emphasizes management responsibility."
+ },
+ {
+  "wk": 11,
+  "n": 4,
+  "stem": "Which statements about the Initial (Level 1) maturity level are correct?",
+  "opts": [
+   "Processes are typically ad hoc and chaotic.",
+   "Processes are quantitatively managed.",
+   "Continuous process improvement is institutionalized.",
+   "Success depends heavily on individual effort.",
+   "It is the lowest maturity level."
+  ],
+  "ans": [
+   0,
+   3,
+   4
+  ],
+  "ca": "a. Processes are typically ad hoc and chaotic.\nd. Success depends heavily on individual effort.\ne. It is the lowest maturity level.",
+  "sol": "At CMM Level 1 (Initial), processes are ad hoc, chaotic, and unpredictable (a), success depends heavily on individual effort rather than repeatable processes (d), and it is the lowest maturity level in the model (e). Quantitative management (b) is characteristic of Level 4, and continuous improvement (c) belongs to Level 5 (Optimizing)."
+ },
+ {
+  "wk": 11,
+  "n": 5,
+  "stem": "Which statements about the Defined (Level 3) maturity level are true?",
+  "opts": [
+   "Processes are primarily ad hoc.",
+   "Processes are documented and standardized.",
+   "A consistent process is followed across projects.",
+   "Organizational standards are established.",
+   "Continuous optimization is the primary focus."
+  ],
+  "ans": [
+   1,
+   2,
+   3
+  ],
+  "ca": "b. Processes are documented and standardized.\nc. A consistent process is followed across projects.\nd. Organizational standards are established.",
+  "sol": "At CMM Level 3 (Defined), processes are documented, standardized, and consistently followed across projects, with organizational standards established (b, c, d). Ad hoc processes (a) describe Level 1 (Initial), and continuous optimization (e) is the focus of Level 5 (Optimizing)."
+ },
+ {
+  "wk": 11,
+  "n": 6,
+  "stem": "Which of the following correctly match a maturity level with its characteristic?",
+  "opts": [
+   "Repeatable (Level 2) – Disciplined process",
+   "Defined (Level 3) – Standard, consistent process",
+   "Initial (Level 1) – Continuously improving process",
+   "Managed (Level 4) – Predictable process",
+   "Optimizing (Level 5) – Ad hoc process"
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. Repeatable (Level 2) – Disciplined process\nb. Defined (Level 3) – Standard, consistent process\nd. Managed (Level 4) – Predictable process",
+  "sol": "The CMM maturity levels are correctly matched as follows: Repeatable (Level 2) focuses on disciplined project management processes, Defined (Level 3) establishes standardized and consistent processes across the organization, and Managed (Level 4) uses quantitative metrics to achieve predictable process performance. In contrast, Initial (Level 1) is characterized by ad hoc, chaotic processes rather than continuous improvement (which belongs to Level 5 Optimizing), and Optimizing (Level 5) is about continuous process improvement, not ad hoc behavior."
+ },
+ {
+  "wk": 11,
+  "n": 7,
+  "stem": "Which statements about CMM Level 5 are correct?",
+  "opts": [
+   "It is less mature than the Defined level.",
+   "It discourages process innovation.",
+   "It focuses on optimization and continuous improvement.",
+   "It includes Defect Prevention as a key process area.",
+   "It includes Technology Change Management as a key process area."
+  ],
+  "ans": [
+   2,
+   3,
+   4
+  ],
+  "ca": "c. It focuses on optimization and continuous improvement.\nd. It includes Defect Prevention as a key process area.\ne. It includes Technology Change Management as a key process area",
+  "sol": "CMM Level 5 (Optimizing) is the highest maturity level, focusing on continuous process improvement, defect prevention, and technology change management to proactively enhance quality and efficiency. It is more mature than the Defined level (Level 3), not less, and it actively encourages process innovation rather than discouraging it."
+ },
+ {
+  "wk": 11,
+  "n": 8,
+  "stem": "Which of the following are recognized Level 5 Key Process Areas (KPAs) in the SW-CMM?",
+  "opts": [
+   "Quantitative Process Management",
+   "Defect Prevention",
+   "Software Project Tracking and Oversight",
+   "Technology Change Management",
+   "Process Change Management"
+  ],
+  "ans": [
+   1,
+   3,
+   4
+  ],
+  "ca": "b. Defect Prevention\nd. Technology Change Management\ne. Process Change Management",
+  "sol": "In the SW-CMM, Level 5 (Optimizing) focuses on continuous process improvement through three Key Process Areas: Defect Prevention (to proactively eliminate errors), Technology Change Management (to adopt beneficial new technologies), and Process Change Management (to drive ongoing process enhancements). Quantitative Process Management belongs to Level 4 (Managed), and Software Project Tracking and Oversight is part of Level 2 (Repeatable), making (b), (d), and (e) the correct Level 5 KPAs."
+ },
+ {
+  "wk": 11,
+  "n": 9,
+  "stem": "Which of the following statements correctly describe Quality Assurance (QA)?",
+  "opts": [
+   "QA focuses on improving development processes.",
+   "QA is limited to software testing.",
+   "QA begins only after coding is completed.",
+   "QA aims to prevent defects from occurring.",
+   "QA is process-oriented."
+  ],
+  "ans": [
+   0,
+   3,
+   4
+  ],
+  "ca": "a. QA focuses on improving development processes\nd. QA aims to prevent defects from occurring.\ne. QA is process-oriented",
+  "sol": "Quality Assurance (QA) is a process-oriented approach that focuses on preventing defects by improving development and management processes throughout the lifecycle, starting from project inception. It is not limited to testing (which is Quality Control) and does not begin only after coding—it spans the entire development process."
+ },
+ {
+  "wk": 11,
+  "n": 10,
+  "stem": "Which of the following statements correctly describe Quality Control (QC)?",
+  "opts": [
+   "QC aims primarily at process improvement.",
+   "QC is performed only during requirements analysis.",
+   "QC focuses on identifying defects in software products.",
+   "QC is product-oriented.",
+   "QC includes activities such as testing and inspections."
+  ],
+  "ans": [
+   2,
+   3,
+   4
+  ],
+  "ca": "c. QC focuses on identifying defects in software products.\nd. QC is product-oriented.\ne. QC includes activities such as testing and inspections.",
+  "sol": "Quality Control (QC) is a product-oriented process that focuses on identifying defects in the actual work products through activities like testing, inspections, and reviews. It is performed throughout the development lifecycle—not just during requirements analysis—and its goal is defect detection, not process improvement (which is the aim of QA)."
+ },
+ {
+  "wk": 12,
+  "n": 1,
+  "stem": "Which of the following correctly match the CMMI flavor with its focus area?",
+  "opts": [
+   "CMMI for Development → Software and systems engineering activities.",
+   "CMMI for Development → Exclusive focus on supplier contracts.",
+   "CMMI for Services → Limited only to IT help desks.",
+   "CMMI for Services → Organizations providing services.",
+   "CMMI for Acquisition → Acquiring products and services."
+  ],
+  "ans": [
+   0,
+   3,
+   4
+  ],
+  "ca": "a. CMMI for Development → Software and systems engineering activities\nd. CMMI for Services → Organizations providing services.\ne. CMMI for Acquisition → Acquiring products and services",
+  "sol": "CMMI has distinct models: CMMI for Development covers software, systems, and hardware engineering (a); CMMI for Services applies to any service-providing organization, not just IT help desks (d); and CMMI for Acquisition focuses on acquiring products and services (e). It does not exclusively focus on supplier contracts (b—that’s part of acquisition, not development), and it is not limited to IT help desks (c)."
+ },
+ {
+  "wk": 12,
+  "n": 2,
+  "stem": "Which of the following statements about the Personal Software Process (PSP) are true?",
+  "opts": [
+   "PSP recognizes that an individual process differs from a team project process.",
+   "PSP provides a defined process for individual use.",
+   "PSP is designed exclusively for large teams.",
+   "PSP can be fine-tuned by individuals.",
+   "PSP eliminates the need for any development process."
+  ],
+  "ans": [
+   0,
+   1,
+   3
+  ],
+  "ca": "a. PSP recognizes that an individual process differs from a team project\nprocess.\nb. PSP provides a defined process for individual use.\nd. PSP can be fine-tuned by individuals.",
+  "sol": "The Personal Software Process (PSP) is a disciplined framework designed for individual developers to plan, track, and improve their own work. It acknowledges the difference between individual and team processes (a), provides a defined personal process (b), and allows individuals to tailor it to their needs (d). It is not designed for large teams (c—that’s the Team Software Process, TSP), nor does it eliminate the need for other development processes (e)."
+ },
+ {
+  "wk": 12,
+  "n": 3,
+  "stem": "Which of the following statements about PSP evolution are true?",
+  "opts": [
+   "Measurement activities appear before planning activities.",
+   "Quality management is introduced before personal planning.",
+   "Personal process evolution is a PSP3 activity.",
+   "Design and code reviews are introduced in PSP0.",
+   "PSP consists of four levels: PSP0 through PSP3."
+  ],
+  "ans": [
+   0,
+   2,
+   4
+  ],
+  "ca": "a. Measurement activities appear before planning activities.\nc. Personal process evolution is a PSP3 activity.\ne. PSP consists of four levels: PSP0 through PSP3",
+  "sol": "PSP evolves through four levels: PSP0 (basic measurement of time and defects), PSP1 (adds size estimation and planning), PSP2 (introduces design and code reviews for quality management), and PSP3 (focuses on personal process evolution and scaling). Thus, measurement (a) comes before planning, personal process evolution (c) is a PSP3 activity, and PSP has four levels (e). Quality management is introduced in PSP2, after planning (b), and reviews are not in PSP0 (d)."
+ },
+ {
+  "wk": 12,
+  "n": 4,
+  "stem": "Which of the following statements about Six Sigma are true?",
+  "opts": [
+   "Six Sigma allows up to 340 defects per million opportunities.",
+   "A Six Sigma process produces no more than 3.4 defects per million opportunities.",
+   "A Five Sigma process produces about 230 defects per million opportunities.",
+   "A Four Sigma process produces about 6210 defects per million opportunities.",
+   "Four Sigma produces fewer defects than Five Sigma."
+  ],
+  "ans": [
+   1,
+   2,
+   3
+  ],
+  "ca": "b. A Six Sigma process produces no more than 3.4 defects per million\nopportunities.\nc. A Five Sigma process produces about 230 defects per million\nopportunities.\nd. A Four Sigma process produces about 6210 defects per million\nopportunities",
+  "sol": "Six Sigma is a quality management methodology that aims to reduce defects to 3.4 per million opportunities (DPMO), making (b) correct. A Five Sigma process corresponds to about 230 DPMO (c), and Four Sigma corresponds to about 6,210 DPMO (d). Option (a) is incorrect because 340 DPMO lies between Five Sigma and Six Sigma, not at Six Sigma. Option (e) is false because Four Sigma produces more defects (6,210) than Five Sigma (230)."
+ },
+ {
+  "wk": 12,
+  "n": 5,
+  "stem": "Which statements explain why software reliability can vary among users?",
+  "opts": [
+   "Reliability is unaffected by how software is used.",
+   "Users may exercise different features of the software.",
+   "Different usage patterns can expose different failures.",
+   "Every user interacts with software in exactly the same way.",
+   "Failures visible to one user may not appear for another."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Users may exercise different features of the software.\nc. Different usage patterns can expose different failures.\ne. Failures visible to one user may not appear for another.",
+  "sol": "Software reliability can vary among users because different users may exercise different features (b), follow different usage patterns that expose distinct failures (c), and encounter failures that are visible to some but not others (e). Reliability is strongly affected by usage (a is false), and users do not interact identically (d is false)."
+ },
+ {
+  "wk": 12,
+  "n": 6,
+  "stem": "Which of the following statements correctly compare software and hardware failure curves?",
+  "opts": [
+   "Software and hardware have identical failure behavior over time.",
+   "Hardware typically exhibits a \"bathtub curve\" failure pattern.",
+   "Software does not wear out physically with age like hardware.",
+   "Hardware failure rate remains constant throughout its lifetime.",
+   "Software changes can introduce new failures."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. Hardware typically exhibits a \"bathtub curve\" failure pattern.\nc. Software does not wear out physically with age like hardware.\ne. Software changes can introduce new failures",
+  "sol": "Hardware follows a \"bathtub curve\"—early failures, constant random failures during useful life, and increasing wear-out failures as it ages (b). Software, however, does not physically wear out (c); it can degrade due to changes, which may introduce new defects (e). Hardware failure rates are not constant throughout (d—they increase during burn-in and wear-out phases). Software and hardware do not have identical failure behavior (a)."
+ },
+ {
+  "wk": 12,
+  "n": 7,
+  "stem": "A POFOD value of 0.001 implies that:",
+  "opts": [
+   "Approximately 1 out of 1000 service requests may result in failure.",
+   "Approximately 10 out of 1000 service requests may result in failure.",
+   "The probability of failure on a demand is 0.1%.",
+   "The system fails once every 1000 hours.",
+   "The metric explicitly depends on time."
+  ],
+  "ans": [
+   0,
+   2
+  ],
+  "ca": "a. Approximately 1 out of 1000 service requests may result in failure..\nc. The probability of failure on a demand is 0.1%.",
+  "sol": "POFOD (Probability of Failure on Demand) measures the likelihood that a system will fail when a service is requested. A value of 0.001 means there is a 0.1% chance of failure per demand, which translates to approximately 1 failure out of 1,000 service requests (a and c). It does not imply 10 out of 1,000 (b—that would be 0.01), nor is it time-based (d and e—that would describe MTBF, not POFOD)."
+ },
+ {
+  "wk": 12,
+  "n": 8,
+  "stem": "Which of the following statements about a reliability growth model are true?",
+  "opts": [
+   "It is used only after software deployment.",
+   "It models how software reliability grows over time.",
+   "Reliability improves as errors are detected and repaired.",
+   "It assumes reliability decreases whenever defects are fixed.",
+   "It can help estimate future reliability levels."
+  ],
+  "ans": [
+   1,
+   2,
+   4
+  ],
+  "ca": "b. It models how software reliability grows over time.\nc. Reliability improves as errors are detected and repaired\ne. It can help estimate future reliability levels",
+  "sol": "A reliability growth model tracks how software reliability improves over time as defects are detected and fixed, making (b) and (c) correct. It is primarily used during system testing, not only after deployment (a is false). It assumes reliability increases, not decreases, when defects are fixed (d is false). It can also help estimate future reliability levels (e)."
+ },
+ {
+  "wk": 12,
+  "n": 9,
+  "stem": "Which of the following are implications of the Littlewood and Verall model?",
+  "opts": [
+   "Every bug contributes identically to reliability improvement.",
+   "The order of bug removal has no effect on reliability growth.",
+   "Reliability growth is not necessarily uniform across bug fixes.",
+   "Early testing may produce substantial reliability gains.",
+   "Remaining bugs after extensive testing may have smaller reliability impacts."
+  ],
+  "ans": [
+   2,
+   3,
+   4
+  ],
+  "ca": "c. Reliability growth is not necessarily uniform across bug fixes.\nd. Early testing may produce substantial reliability gains.\ne. Remaining bugs after extensive testing may have smaller reliability impacts.",
+  "sol": "The Littlewood–Verrall model assumes that different faults have different sizes/impacts, so reliability growth is not uniform across fixes (c). Early testing tends to find the most impactful faults, leading to substantial early gains (d), while the remaining faults after extensive testing are likely to have smaller impacts (e). The model does not assume identical contributions (a), and the order of removal does affect growth because fixing larger-impact faults earlier yields more improvement (b is false)."
+ },
+ {
+  "wk": 12,
+  "n": 10,
+  "stem": "Which of the following statements about statistical testing are true?",
+  "opts": [
+   "Statistical testing uses only randomly generated source code.",
+   "Test cases are selected based on the expected operational profile of the software.",
+   "It ignores user behavior patterns.",
+   "Statistical testing aims to reflect actual system usage.",
+   "It can be used to assess software reliability."
+  ],
+  "ans": [
+   1,
+   3,
+   4
+  ],
+  "ca": "b. Test cases are selected based on the expected operational profile of the\nsoftware.\nd. Statistical testing aims to reflect actual system usage.\ne. It can be used to assess software reliability.",
+  "sol": "Statistical testing (also called operational profile testing) selects test cases based on the expected operational profile (b) to reflect actual system usage (d). By measuring failures during such testing, it helps assess software reliability (e). It does not use randomly generated source code (a—it uses the actual software), and it explicitly incorporates user behavior patterns, not ignore them (c is false)."
+ }
+]

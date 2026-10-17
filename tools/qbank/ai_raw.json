@@ -1,0 +1,2102 @@
+[
+ {
+  "p": 1,
+  "n": 1,
+  "stem": "According to the introductory lecture, which of the following best describes the 'software crisis'?",
+  "opts": [
+   "A shortage of available hardware to run new software.",
+   "The high cost of software licenses compared to hardware.",
+   "A persistent set of problems where projects are late, over budget, and fail to meet requirements.",
+   "The rapid obsolescence of programming languages."
+  ],
+  "ans": 2,
+  "src": "ilHPCbkZLV4",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 2,
+  "stem": "Barry Boehm's W5HH principle is a framework used by project managers primarily to:",
+  "opts": [
+   "conduct performance reviews for team members.",
+   "comprehensively define and clarify the project scope.",
+   "select the appropriate software development lifecycle model.",
+   "negotiate contracts with external vendors."
+  ],
+  "ans": 1,
+  "src": "nmkKAZ0jatM",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 3,
+  "stem": "What is the key difference between a software product targeting a 'horizontal market' versus a 'vertical market'?",
+  "opts": [
+   "Horizontal market products are custom-built, while vertical market products are off-the-shelf.",
+   "Horizontal market products are for a wide range of industries, while vertical market products are for a specific industry.",
+   "Horizontal market products are information systems, while vertical market products are embedded systems.",
+   "Horizontal market products are more expensive than vertical market products."
+  ],
+  "ans": 1,
+  "src": "nmkKAZ0jatM",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 4,
+  "stem": "Which of the following is NOT one of the five core project management process groups as defined by PMBOK?",
+  "opts": [
+   "Initiating",
+   "Planning",
+   "Designing",
+   "Closing"
+  ],
+  "ans": 2,
+  "src": "A8-PtgugnGE",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 5,
+  "stem": "In the classical waterfall model, which phase is stated to consume the maximum effort among all development and post-delivery phases?",
+  "opts": [
+   "Requirements Analysis",
+   "Design",
+   "Testing",
+   "Maintenance"
+  ],
+  "ans": 3,
+  "src": "yC0A6_nYPYQ",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 6,
+  "stem": "What is the primary reason the V-Model is considered more suitable for high-reliability systems compared to the iterative waterfall model?",
+  "opts": [
+   "It allows for more frequent customer feedback.",
+   "It integrates test planning and design activities into every development phase, not just at the end.",
+   "It completely eliminates the possibility of defects.",
+   "It is a risk-driven model that uses prototyping."
+  ],
+  "ans": 1,
+  "src": "J1-LpZr9GSQ",
+  "diff": "Hard"
+ },
+ {
+  "p": 1,
+  "n": 7,
+  "stem": "What is the key characteristic that distinguishes the RAD model from the traditional prototyping model?",
+  "opts": [
+   "RAD uses a strict waterfall approach after prototyping.",
+   "In RAD, the prototype is refined and evolves into the final product, whereas in the prototyping model, it is typically thrown away.",
+   "RAD is only suitable for large, high-performance systems.",
+   "The prototyping model does not involve customer feedback."
+  ],
+  "ans": 1,
+  "src": "0O6fJSkafOo",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 8,
+  "stem": "The Spiral Model is considered a 'meta-model' because:",
+  "opts": [
+   "it is the most recently developed model.",
+   "it is exclusively used for meta-data projects.",
+   "it can incorporate characteristics of waterfall, prototyping, and iterative models within its loops.",
+   "it guarantees zero risk in project development."
+  ],
+  "ans": 2,
+  "src": "sQyR78dlSzc",
+  "diff": "Hard"
+ },
+ {
+  "p": 1,
+  "n": 9,
+  "stem": "In Scrum, what is the primary responsibility of the Product Owner?",
+  "opts": [
+   "To facilitate the daily scrum meeting and remove impediments.",
+   "To write the code for the features in the sprint backlog.",
+   "To represent the customer's interests, define features, and prioritize the Product Backlog.",
+   "To manage the technical architecture of the system."
+  ],
+  "ans": 2,
+  "src": "0JYkgfgKn8I",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 10,
+  "stem": "During a Daily Scrum meeting, which of the following questions is NOT one of the three key questions each team member answers?",
+  "opts": [
+   "What did I accomplish yesterday?",
+   "What is my plan for today?",
+   "How can we solve the technical problem I am facing?",
+   "Are there any obstacles in my way?"
+  ],
+  "ans": 2,
+  "src": "0JYkgfgKn8I",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 11,
+  "stem": "What is the primary purpose of a 'business case' or feasibility study?",
+  "opts": [
+   "To create a detailed technical design of the software.",
+   "To justify the project by demonstrating its financial and technical viability.",
+   "To hire the development team for the project.",
+   "To write the user manual for the final product."
+  ],
+  "ans": 1,
+  "src": "8RuJfk1Xj2U",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 12,
+  "stem": "Which project evaluation technique calculates the time required for a project's cumulative cash inflows to equal its initial investment but ignores all profitability after that point?",
+  "opts": [
+   "Net Present Value (NPV)",
+   "Return on Investment (ROI)",
+   "Payback Period",
+   "Net Profit"
+  ],
+  "ans": 2,
+  "src": "8UlgpszPK6w",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 13,
+  "stem": "A project has an initial investment of $100,000, followed by five annual cash flows of $10,000, $10,000, $10,000, $20,000, and $100,000. According to the lecture's calculation using a 10% discount rate, what is the Net Present Value (NPV)?",
+  "opts": [
+   "$50,000",
+   "$618",
+   "$10,000",
+   "-$1,250"
+  ],
+  "ans": 1,
+  "src": "8UlgpszPK6w",
+  "diff": "Hard"
+ },
+ {
+  "p": 1,
+  "n": 14,
+  "stem": "In the context of program management, what is a 'program'?",
+  "opts": [
+   "A single, standalone software application.",
+   "A group of unrelated projects managed by the same person.",
+   "A group of related projects managed in a coordinated way to achieve benefits not possible if managed independently.",
+   "The source code written for a project."
+  ],
+  "ans": 2,
+  "src": "5W5xe-CJZTQ",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 15,
+  "stem": "What is the primary purpose of the Software Project Management Plan (SPMP) document?",
+  "opts": [
+   "It is the contract signed with the customer.",
+   "It is a marketing document for the final product.",
+   "It is the user manual for the software.",
+   "It formally records all project plans, estimates, schedules, and risk management strategies."
+  ],
+  "ans": 3,
+  "src": "0mpuhlabOWE",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 16,
+  "stem": "According to the lecture, what is a major shortcoming of using Source Lines of Code (SLOC) as a size estimation metric?",
+  "opts": [
+   "It is too difficult to count.",
+   "It penalizes the use of high-level languages and concise coding styles.",
+   "It can only be used for object-oriented programming.",
+   "It is language-independent."
+  ],
+  "ans": 1,
+  "src": "wqyJF-Gbdp0",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 17,
+  "stem": "The Delphi estimation technique is designed to mitigate individual biases and groupthink by:",
+  "opts": [
+   "requiring all experts to agree on a single estimate in a face-to-face meeting.",
+   "using a mathematical formula based on historical data.",
+   "using multiple rounds of anonymous estimation and feedback facilitated by a coordinator.",
+   "averaging the estimates of the most senior and most junior team members."
+  ],
+  "ans": 2,
+  "src": "wqyJF-Gbdp0",
+  "diff": "Hard"
+ },
+ {
+  "p": 1,
+  "n": 18,
+  "stem": "In PERT/CPM, what does 'Slack' or 'Float' represent?",
+  "opts": [
+   "The total duration of the project.",
+   "The amount of time a non-critical activity can be delayed without affecting the project completion date.",
+   "The cost overrun on a specific task.",
+   "The number of resources assigned to a task."
+  ],
+  "ans": 1,
+  "src": "-gqtKDlYSJc",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 19,
+  "stem": "During the backward pass in a PERT/CPM calculation, if an activity is a 'burst point' with multiple successors, how is its Latest Finish (LF) time determined?",
+  "opts": [
+   "It is the maximum of the Latest Start (LS) times of all its successors.",
+   "It is the sum of the Latest Start (LS) times of all its successors.",
+   "It is the minimum of the Latest Start (LS) times of all its successors.",
+   "It is equal to the project's overall earliest finish time."
+  ],
+  "ans": 2,
+  "src": "8w2gm0AO-KY",
+  "diff": "Hard"
+ },
+ {
+  "p": 1,
+  "n": 20,
+  "stem": "What is the primary goal of 'Project Crashing'?",
+  "opts": [
+   "To intentionally fail a project to recover insurance costs.",
+   "To reduce the overall project duration by accelerating specific activities, usually at an increased cost.",
+   "To remove non-essential features from the project scope.",
+   "To re-assign all team members to different projects."
+  ],
+  "ans": 1,
+  "src": "ikOTZBPaklE",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 21,
+  "stem": "According to Herzberg's Two-Factor Theory, which of the following is a 'Motivator' (or satisfier)?",
+  "opts": [
+   "Company policy",
+   "Salary",
+   "Working conditions",
+   "Recognition of effort and performance"
+  ],
+  "ans": 3,
+  "src": "TQWJYqOzs0g",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 22,
+  "stem": "What is the primary disadvantage of a 'Chief Programmer Team' structure?",
+  "opts": [
+   "Decision-making is too slow due to extensive discussions.",
+   "It is only suitable for very large and complex projects.",
+   "The project is highly dependent on a single individual, creating a single point of failure.",
+   "It leads to poor code quality due to a lack of expertise."
+  ],
+  "ans": 2,
+  "src": "wjd0YMixlJA",
+  "diff": "Hard"
+ },
+ {
+  "p": 1,
+  "n": 23,
+  "stem": "What is the primary purpose of a resource histogram in project management?",
+  "opts": [
+   "To track the project budget over time.",
+   "To visualize the demand for a specific resource over the project's duration.",
+   "To list the dependencies between project activities.",
+   "To document the project's final deliverables."
+  ],
+  "ans": 1,
+  "src": "ZcO5UNzMtz8",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 24,
+  "stem": "In Earned Value Analysis (EVA), what does a Cost Performance Index (CPI) of less than 1 indicate?",
+  "opts": [
+   "The project is under budget.",
+   "The project is ahead of schedule.",
+   "The project is over budget.",
+   "The project is exactly on schedule and on budget."
+  ],
+  "ans": 2,
+  "src": "I81fOjyzb0E",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 25,
+  "stem": "What is the primary function of a Change Control Board (CCB)?",
+  "opts": [
+   "To write the initial project requirements.",
+   "To test the final software product.",
+   "To review and approve proposed changes to controlled work products.",
+   "To manage the project's budget."
+  ],
+  "ans": 2,
+  "src": "uITAo7fbm3M",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 26,
+  "stem": "What is the key difference between a 'Fixed Price' contract and a 'Time and Material' contract?",
+  "opts": [
+   "Fixed price contracts are only for hardware, while time and material are for software.",
+   "In a fixed price contract, the customer has budget certainty, while in a time and material contract, the customer bears the financial risk of overruns.",
+   "Fixed price contracts are more flexible for changing requirements.",
+   "Time and material contracts motivate suppliers to be more cost-effective."
+  ],
+  "ans": 1,
+  "src": "olrW1tqGnsM",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 27,
+  "stem": "What is the primary purpose of a post-implementation project review, also known as a 'post-mortem analysis'?",
+  "opts": [
+   "To assign blame for project failures.",
+   "To calculate the final financial profit or loss of the project.",
+   "To identify successes, failures, and lessons learned to improve future projects.",
+   "To release the final software version to the public."
+  ],
+  "ans": 2,
+  "src": "TfvonvpVeTE",
+  "diff": "Easy"
+ },
+ {
+  "p": 1,
+  "n": 28,
+  "stem": "What is a fundamental distinction between ISO 9001 certification and SEI CMM assessment?",
+  "opts": [
+   "ISO 9001 is for software only, while SEI CMM is for all industries.",
+   "ISO 9001 provides a step-by-step improvement path, while SEI CMM is a go/no-go certification.",
+   "ISO 9001 is a generic quality assurance standard, while SEI CMM is a software-specific framework providing a gradual path for process maturity improvement.",
+   "Only SEI CMM requires configuration management."
+  ],
+  "ans": 2,
+  "src": "k6I04YmQWl8",
+  "diff": "Hard"
+ },
+ {
+  "p": 1,
+  "n": 29,
+  "stem": "In the context of software reliability, what does the '90-10 rule' state?",
+  "opts": [
+   "90% of bugs are found by 10% of testers.",
+   "A project is 90% complete with 10% of the work remaining.",
+   "Approximately 90% of a program's execution time is spent in only 10% of its code.",
+   "90% of development effort is spent on coding, and 10% on testing."
+  ],
+  "ans": 2,
+  "src": "bfx1u27hvvU",
+  "diff": "Medium"
+ },
+ {
+  "p": 1,
+  "n": 30,
+  "stem": "According to Putnam's model, if a project's development time (td) is compressed by half, the total effort (K) required increases by a factor of:",
+  "opts": [
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "ans": 3,
+  "src": "_KdYrzzMuBo",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 1,
+  "stem": "According to the lecture, what is the 'software crisis'?",
+  "opts": [
+   "A shortage of hardware to run modern software applications.",
+   "A persistent set of problems including projects failing to meet requirements, exceeding budgets, and being delivered late.",
+   "The rapid increase in software costs relative to hardware costs.",
+   "The difficulty in finding developers trained in older programming languages."
+  ],
+  "ans": 1,
+  "src": "ilHPCbkZLV4",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 2,
+  "stem": "What is a project stakeholder, as defined in the lecture?",
+  "opts": [
+   "Only the customers who pay for the software project.",
+   "Only the project manager and the development team.",
+   "Individuals or organizations actively involved in a project, or whose interests may be affected by its execution or completion.",
+   "The top management of the company that initiates the project."
+  ],
+  "ans": 2,
+  "src": "nmhuINAXksk",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 3,
+  "stem": "The '99 percent complete syndrome' refers to a situation where:",
+  "opts": [
+   "A project is successfully completed with 99% of its features.",
+   "A project is perpetually reported as 'almost done' by team members, leading to significant delays.",
+   "99% of the project budget has been spent before completion.",
+   "The final product has a 99% defect-free rate."
+  ],
+  "ans": 1,
+  "src": "yC0A6_nYPYQ",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 4,
+  "stem": "What is the principle of 'phase containment of errors'?",
+  "opts": [
+   "Containing all project errors within a single, dedicated testing phase.",
+   "The idea that errors should be detected and corrected as close as possible to the phase in which they were introduced.",
+   "A method for ensuring that errors in one module do not affect other modules.",
+   "The principle that a certain number of errors is acceptable in each phase."
+  ],
+  "ans": 1,
+  "src": "J1-LpZr9GSQ",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 5,
+  "stem": "According to the lecture, what is a major criticism of the Waterfall Model?",
+  "opts": [
+   "It requires too much customer involvement throughout the project.",
+   "It is too flexible, leading to scope creep and chaos.",
+   "It is a 'heavy-weight process' with extensive documentation overhead and inflexibility to change requests.",
+   "It is only suitable for very small, trivial projects."
+  ],
+  "ans": 2,
+  "src": "0O6fJSkafOo",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 6,
+  "stem": "What is the core philosophy of the evolutionary model of software development?",
+  "opts": [
+   "To define and freeze all requirements before development begins.",
+   "To develop core modules initially and then progressively refine and expand them through multiple iterations based on user feedback.",
+   "To complete the entire system in a single, large release after extensive testing.",
+   "To focus exclusively on risk mitigation through prototyping."
+  ],
+  "ans": 1,
+  "src": "sHoPCWz6YeQ",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 7,
+  "stem": "In the context of Extreme Programming (XP), what is 'pair programming'?",
+  "opts": [
+   "Two programmers dividing the work and coding separate modules in parallel.",
+   "A lead programmer mentoring a junior programmer.",
+   "Two programmers working together at one workstation, with one writing code and the other reviewing it.",
+   "A formal code review process conducted by a pair of senior developers."
+  ],
+  "ans": 2,
+  "src": "lWkKAZ0jatM",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 8,
+  "stem": "In the Scrum framework, who is the Product Owner?",
+  "opts": [
+   "The most senior developer on the team who owns the codebase.",
+   "The project manager responsible for the team's daily tasks.",
+   "A team member responsible for facilitating the Scrum process and removing impediments.",
+   "A team member who acts as the voice of the customer, defines features, and prioritizes the Product Backlog."
+  ],
+  "ans": 3,
+  "src": "0JYkgfgKn8I",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 9,
+  "stem": "What is the 'Price to Win' estimation method?",
+  "opts": [
+   "A technique where the project cost is estimated based on the most competitive market price.",
+   "A method where the project cost is set at whatever the customer is willing or able to spend.",
+   "An estimation based on winning a government contract through the lowest possible bid.",
+   "A detailed bottom-up estimation to ensure the price is high enough to guarantee a win."
+  ],
+  "ans": 1,
+  "src": "wqyJF-Gbdp0",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 10,
+  "stem": "What are the three development modes in the Basic COCOMO 81 model?",
+  "opts": [
+   "Simple, Moderate, Complex",
+   "Small, Medium, Large",
+   "Organic, Semi-detached, Embedded",
+   "Basic, Intermediate, Detailed"
+  ],
+  "ans": 2,
+  "src": "sQyR78dlSzc",
+  "diff": "Easy"
+ },
+ {
+  "p": 2,
+  "n": 11,
+  "stem": "What is the primary purpose of a feasibility study in the project management lifecycle?",
+  "opts": [
+   "To create a detailed project schedule and allocate resources.",
+   "To determine if a project is technically viable and financially worthwhile before significant resources are committed.",
+   "To gather all customer requirements for the software product.",
+   "To select the development team and assign roles and responsibilities."
+  ],
+  "ans": 1,
+  "src": "rAo0iMok7lI",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 12,
+  "stem": "What is the key difference between project management processes and product-oriented processes?",
+  "opts": [
+   "Project management processes are done by the customer, while product-oriented processes are done by the development team.",
+   "Project management processes focus on planning and control, while product-oriented processes focus on creating the actual project deliverables.",
+   "Project management processes are only performed at the beginning of a project, while product-oriented processes are continuous.",
+   "There is no significant difference; the terms are used interchangeably."
+  ],
+  "ans": 1,
+  "src": "A8-PtgugnGE",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 13,
+  "stem": "What is the key difference between Project Risk and Business Risk as defined in the lecture?",
+  "opts": [
+   "Project Risk affects the budget, while Business Risk affects the schedule.",
+   "Project Risk relates to threats to the successful execution of the project itself, while Business Risk threatens the benefits of the delivered project.",
+   "Project Risk is managed by the project manager, while Business Risk is managed by the customer.",
+   "Project Risk is technical in nature, while Business Risk is purely financial."
+  ],
+  "ans": 1,
+  "src": "8RuJfk1Xj2U",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 14,
+  "stem": "What is a key difference between the Payback Period and Net Present Value (NPV) as project evaluation techniques?",
+  "opts": [
+   "Payback Period considers overall profitability, while NPV only considers the time to recover investment.",
+   "Payback Period is more complex to calculate than NPV.",
+   "NPV accounts for the time value of money by discounting future cash flows, while Payback Period does not.",
+   "NPV is expressed in years, while Payback Period is a percentage."
+  ],
+  "ans": 2,
+  "src": "8UlgpszPK6w",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 15,
+  "stem": "In the context of risk evaluation, how is a 'risk premium' used when calculating the Net Present Value (NPV) for a risky project?",
+  "opts": [
+   "It is a bonus paid to the project team for managing risks successfully.",
+   "It is an additional amount added to the project's expected benefits to account for potential gains.",
+   "It is an additional percentage added to the discount rate, making riskier projects appear less attractive unless their returns are higher.",
+   "It is a separate fund set aside to cover any financial losses from risks."
+  ],
+  "ans": 2,
+  "src": "GqMtULB0rLE",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 16,
+  "stem": "How does a Program Manager's role differ from a Project Manager's role regarding resource optimization?",
+  "opts": [
+   "A Program Manager minimizes resource demand for their specific project, while a Project Manager optimizes across all projects.",
+   "A Program Manager aims for the optimal use of resources across all projects within the program, while a Project Manager seeks to minimize resource demand for their single project.",
+   "A Program Manager focuses only on financial resources, while a Project Manager focuses on human resources.",
+   "There is no difference; both roles have the same objective for resource optimization."
+  ],
+  "ans": 1,
+  "src": "5W5xe-CJZTQ",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 17,
+  "stem": "What is a primary disadvantage of the bottom-up estimation technique?",
+  "opts": [
+   "It is very fast to implement but often inaccurate.",
+   "It fails to consider the complexities of individual low-level tasks.",
+   "It can be very time-consuming and may overlook system-level costs like integration and configuration management.",
+   "It requires extensive historical data from similar past projects to be effective."
+  ],
+  "ans": 2,
+  "src": "U5v_uKQe0Ic",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 18,
+  "stem": "What is the purpose of the Value Adjustment Factor (VAF) in the Albrecht/IFPUG function point calculation?",
+  "opts": [
+   "To convert the final function point count into Lines of Code (LOC).",
+   "To determine the initial raw count of function points based on user inputs and outputs.",
+   "To refine the Unadjusted Function Point (UFP) count by accounting for 14 general system characteristics related to technical and environmental complexity.",
+   "To calculate the total cost of the project based on the function point size."
+  ],
+  "ans": 2,
+  "src": "MzhN6eZIUNU",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 19,
+  "stem": "COSMIC Full Function Points (FFPs) are designed for embedded and real-time systems. What are the four fundamental types of data movement that this method counts?",
+  "opts": [
+   "Inputs, Outputs, Inquiries, and Files",
+   "Creates, Reads, Updates, and Deletes",
+   "Entries, Exits, Reads, and Writes",
+   "Screens, Reports, Modules, and Interfaces"
+  ],
+  "ans": 2,
+  "src": "rOn-GA71uKM",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 20,
+  "stem": "What is the purpose of calculating Program Volume (V) in Halstead's Software Science?",
+  "opts": [
+   "To measure the physical disk space occupied by the program.",
+   "To count the total number of operators and operands used in the program.",
+   "To compensate for the effect of the programming language used, providing a more standardized measure of program size in bits.",
+   "To estimate the number of mental discriminations required to write the program."
+  ],
+  "ans": 2,
+  "src": "w_Ka3XuXEbw",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 21,
+  "stem": "How does Putnam's model demonstrate the concept of 'schedule compression'?",
+  "opts": [
+   "It shows that reducing development time by half will also cut the required effort in half.",
+   "It indicates that compressing the schedule has a linear and predictable impact on project cost.",
+   "It shows a highly non-linear relationship where reducing development time leads to a disproportionately large increase in required effort (effort scales with td^4).",
+   "It proves that schedule compression is impossible beyond a 10% reduction from the nominal time."
+  ],
+  "ans": 2,
+  "src": "_KdYrzzMuBo",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 22,
+  "stem": "Why is it important for a project manager to avoid both too fine and too coarse granularity when creating a Work Breakdown Structure (WBS)?",
+  "opts": [
+   "Too fine granularity is expensive, while too coarse granularity is too simple.",
+   "Too fine granularity creates excessive management overhead, while too coarse granularity leads to a loss of project control and visibility.",
+   "Too fine granularity is only for agile projects, while too coarse granularity is for waterfall projects.",
+   "Too fine granularity requires expert developers, while too coarse granularity can be handled by junior developers."
+  ],
+  "ans": 1,
+  "src": "AvwZ7JO8LNk",
+  "diff": "Medium"
+ },
+ {
+  "p": 2,
+  "n": 23,
+  "stem": "How does the concept of 'slack' or 'float time' in PERT/CPM provide flexibility for a project manager in resource management?",
+  "opts": [
+   "It allows the project manager to add extra features to activities with slack time.",
+   "It indicates which activities can be eliminated from the project to save time.",
+   "It allows the project manager to strategically reallocate resources from non-critical activities (with slack) to critical activities that are falling behind.",
+   "It represents the extra budget available for non-critical activities."
+  ],
+  "ans": 2,
+  "src": "B6Awvb58gIA",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 24,
+  "stem": "During project crashing, why must the critical path be re-evaluated after each incremental reduction in a task's duration?",
+  "opts": [
+   "To ensure the project budget is not exceeded.",
+   "Because reducing the duration of a critical task can cause a different, previously non-critical path to become the new critical path.",
+   "To confirm that the customer still requires the project to be accelerated.",
+   "To allow the project manager to add more tasks to the project."
+  ],
+  "ans": 1,
+  "src": "ikOTZBPaklE",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 25,
+  "stem": "How does the Oldham-Hackman Job Characteristic Model suggest a manager can redesign a job to make it more meaningful and motivating?",
+  "opts": [
+   "By increasing the salary and improving working conditions.",
+   "By implementing stricter supervision and control over tasks.",
+   "By increasing skill variety, task identity, task significance, autonomy, and feedback.",
+   "By reducing the number of tasks to minimize employee workload."
+  ],
+  "ans": 2,
+  "src": "TQWJYqOzs0g",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 26,
+  "stem": "According to Boehm's list of frequent risks, what is 'gold plating' and how can it be mitigated?",
+  "opts": [
+   "It is the risk of using expensive hardware; it can be mitigated by choosing cheaper alternatives.",
+   "It is the risk of developers adding features not specified in requirements; it can be mitigated by requirement scrubbing and prototyping for user evaluation.",
+   "It is the risk of delivering the project late; it can be mitigated by adding more developers to the team.",
+   "It is the risk of the user interface being poorly designed; it can be mitigated by hiring a dedicated UI/UX expert."
+  ],
+  "ans": 1,
+  "src": "wjd0YMixlJA",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 27,
+  "stem": "The lecture advises not to add new dependencies to the activity network to reflect resource constraints. Why is this the recommended practice?",
+  "opts": [
+   "Because resource constraints are not as important as task dependencies.",
+   "Because adding such dependencies makes the network messy, and if the resource constraint disappears, the artificial link remains, causing confusion.",
+   "Because modern software tools cannot handle resource-based dependencies.",
+   "Because it violates the fundamental rules of PERT/CPM network construction."
+  ],
+  "ans": 1,
+  "src": "ZcO5UNzMtz8",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 28,
+  "stem": "The lecture mentions that Earned Value Analysis (EVA) has not achieved universal acceptance in software development. What is the primary reason for this challenge?",
+  "opts": [
+   "EVA calculations are too complex for most project managers to perform.",
+   "EVA is only suitable for hardware projects and cannot be applied to intangible products.",
+   "A 'half-completed software project' often has no functional value until it is fully deployed, making it difficult to assign meaningful 'earned value' to partial work.",
+   "The US Department of Defense has prohibited the use of EVA for software projects."
+  ],
+  "ans": 2,
+  "src": "I81fOjyzb0E",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 29,
+  "stem": "What are the potential consequences and risks of altering activity precedence requirements to get a project back on target?",
+  "opts": [
+   "It always reduces project costs and improves team morale.",
+   "It has no impact on the project other than accelerating the schedule.",
+   "It can compromise quality and increase project risk, such as starting coding before design is complete, which can lead to extensive rework.",
+   "It is a forbidden practice in all project management methodologies."
+  ],
+  "ans": 2,
+  "src": "Ar0ynpJ86QU",
+  "diff": "Hard"
+ },
+ {
+  "p": 2,
+  "n": 30,
+  "stem": "The lecture states that an organization cannot advertise its products as 'ISO 9000 certified.' Why is this the case, and what is the underlying assumption of ISO 9000 certification?",
+  "opts": [
+   "Because ISO 9000 is an outdated standard that has been replaced by SEI CMM.",
+   "Because advertising individual products is too expensive for most ISO certified companies.",
+   "Because ISO certification is awarded to an organization's PROCESS, not its products, based on the assumption that a good process leads to a good product.",
+   "Because only the ISO organization itself is allowed to advertise certified products, not the companies that make them."
+  ],
+  "ans": 2,
+  "src": "ODQNex8xtjU",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 1,
+  "stem": "According to the lecture, the \"software crisis\" refers to a persistent set of problems in software development. Which of the following is NOT a symptom of this crisis?",
+  "opts": [
+   "Projects exceeding their budget.",
+   "Software that is difficult to alter or maintain.",
+   "Hardware costs increasing faster than software costs.",
+   "Projects being delivered late."
+  ],
+  "ans": 2,
+  "src": "ilHPCbkZLV4",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 2,
+  "stem": "What is the primary purpose of conducting a feasibility study at the beginning of a project?",
+  "opts": [
+   "To write the initial lines of code for the project.",
+   "To determine if the project is viable and should be undertaken.",
+   "To hire the entire development team.",
+   "To finalize the user interface design."
+  ],
+  "ans": 1,
+  "src": "yC0A6_nYPYQ",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 3,
+  "stem": "The \"Build and Fix Model\" is described as being suitable for which type of projects?",
+  "opts": [
+   "Large, complex projects with many team members.",
+   "All projects that require high reliability.",
+   "Trivial projects, such as student assignments.",
+   "Projects with a fixed, unchangeable budget."
+  ],
+  "ans": 2,
+  "src": "A8-PtgugnGE",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 4,
+  "stem": "In the Scrum framework, what is a \"Sprint\"?",
+  "opts": [
+   "A daily 15-minute meeting for the development team.",
+   "The final phase of the project where all testing is done.",
+   "A prioritized list of all desired features for a product.",
+   "A fixed-duration iteration during which a product increment is developed."
+  ],
+  "ans": 3,
+  "src": "0JYkgfgKn8I",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 5,
+  "stem": "What does the acronym PERT stand for in the context of project scheduling?",
+  "opts": [
+   "Project Execution and Resource Tracking.",
+   "Program Evaluation and Review Technique.",
+   "Product Engineering and Revision Tool.",
+   "Process Enhancement and Reporting Technology."
+  ],
+  "ans": 1,
+  "src": "B6Awvb58gIA",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 6,
+  "stem": "What is the primary goal of the \"Price to Win\" estimation strategy?",
+  "opts": [
+   "To accurately calculate the total effort required for the project.",
+   "To set the project cost based on what the customer is willing to spend.",
+   "To estimate the project size using Function Points.",
+   "To ensure the highest possible quality for the final product."
+  ],
+  "ans": 1,
+  "src": "wqyJF-Gbdp0",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 7,
+  "stem": "According to the lecture, what is a primary use of a Gantt chart in project management?",
+  "opts": [
+   "To write and compile source code.",
+   "To conduct user acceptance testing.",
+   "To plan the utilization of various resources.",
+   "To formally close a contract with a vendor."
+  ],
+  "ans": 2,
+  "src": "bvt6NAabXPA",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 8,
+  "stem": "What is the core concept of \"egoless programming\" within a democratic team structure?",
+  "opts": [
+   "Only the most senior programmer is allowed to write code.",
+   "No single individual \"owns\" a piece of code; work is reviewed by all.",
+   "Programmers work in complete isolation to avoid conflicts.",
+   "All technical decisions are made by the project manager."
+  ],
+  "ans": 1,
+  "src": "MpNjo7bhBTg",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 9,
+  "stem": "What is the fundamental difference between a \"fault\" and a \"failure\" in software testing?",
+  "opts": [
+   "A fault is a human mistake, while a failure is a bug in the code.",
+   "A fault is an incorrect step in the code, while a failure is the observable deviation from expected behavior.",
+   "A fault can only be found by the developer, while a failure is found by the user.",
+   "A fault and a failure are synonyms for the same problem."
+  ],
+  "ans": 1,
+  "src": "Qfy0niH--tk",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 10,
+  "stem": "What does ISO 9001 certification primarily signify about an organization?",
+  "opts": [
+   "That its individual software products are guaranteed to be bug-free.",
+   "That the organization has a documented quality process or system.",
+   "That the organization is the most profitable in its industry.",
+   "That all its employees have passed a specific quality exam."
+  ],
+  "ans": 1,
+  "src": "ODQNex8xtjU",
+  "diff": "Easy"
+ },
+ {
+  "p": 3,
+  "n": 11,
+  "stem": "According to Barry Boehm's W5HH principle for defining project scope, which question specifically addresses the project's budget and resource requirements?",
+  "opts": [
+   "Why is the software being built?",
+   "What will be done?",
+   "Who is responsible for a function?",
+   "How much of each resource is needed?"
+  ],
+  "ans": 3,
+  "src": "nmkKAZ0jatM",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 12,
+  "stem": "In the V-Model of software development, the design of integration test cases is typically carried out in parallel with which development phase?",
+  "opts": [
+   "Requirements Specification",
+   "High-Level Design",
+   "Detailed Design",
+   "Coding"
+  ],
+  "ans": 1,
+  "src": "J1-LpZr9GSQ",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 13,
+  "stem": "What is the key difference between a purely incremental model and an evolutionary model?",
+  "opts": [
+   "The incremental model uses iterations, while the evolutionary model does not.",
+   "The evolutionary model delivers working software to the customer, while the incremental model does not.",
+   "In the incremental model all requirements are defined upfront, while in the evolutionary model they emerge over time.",
+   "The incremental model is for large projects, while the evolutionary model is only for small projects."
+  ],
+  "ans": 2,
+  "src": "sHoPCWz6YeQ",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 14,
+  "stem": "Which project evaluation technique calculates the difference between total income and total costs but is criticized for not accounting for the timing of cash flows?",
+  "opts": [
+   "Net Present Value (NPV)",
+   "Internal Rate of Return (IRR)",
+   "Payback Period",
+   "Net Profit"
+  ],
+  "ans": 3,
+  "src": "8UlgpszPK6w",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 15,
+  "stem": "What is a major shortcoming of using Source Lines of Code (SLOC) as a project size estimation metric?",
+  "opts": [
+   "It is too difficult for non-technical stakeholders to understand.",
+   "It can only be used for projects written in assembly language.",
+   "It penalizes the use of high-level languages and code reuse.",
+   "It requires expensive, specialized tools to calculate."
+  ],
+  "ans": 2,
+  "src": "wqyJF-Gbdp0",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 16,
+  "stem": "In the COCOMO 81 model, how does the \"Embedded Mode\" of development typically differ from the \"Organic Mode\"?",
+  "opts": [
+   "Embedded mode projects are smaller and use experienced teams, while organic mode projects are large and innovative.",
+   "Embedded mode is for projects with flexible constraints, while organic mode has tight constraints.",
+   "Embedded mode projects are completely new and innovative, while organic mode projects are familiar and stable.",
+   "The constants used for effort estimation are lower for embedded mode than for organic mode."
+  ],
+  "ans": 2,
+  "src": "sQyR78dlSzc",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 17,
+  "stem": "What is the primary goal of \"resource smoothing\" in project management?",
+  "opts": [
+   "To increase the total number of resources available to the project.",
+   "To ensure all activities start on their earliest possible date.",
+   "To create a more even and consistent demand for resources over time.",
+   "To identify the project's critical path."
+  ],
+  "ans": 2,
+  "src": "ZcO5UNzMtz8",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 18,
+  "stem": "In PERT/CPM, when calculating the Earliest Start (ES) time for an activity that has multiple predecessors (a merge point), what rule is applied?",
+  "opts": [
+   "The ES is the average of the Earliest Finish (EF) times of all its predecessors.",
+   "The ES is the earliest (minimum) of the EF times of all its predecessors.",
+   "The ES is the latest (maximum) of the EF times of all its predecessors.",
+   "The ES is always set to zero."
+  ],
+  "ans": 2,
+  "src": "8w2gm0AO-KY",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 19,
+  "stem": "According to Herzberg's Two-Factor Theory, what is the primary role of \"hygiene factors\" such as pay and company policy in employee motivation?",
+  "opts": [
+   "They are the main drivers of job satisfaction and high performance.",
+   "They have no impact on employee satisfaction or dissatisfaction.",
+   "Their absence causes dissatisfaction, but their presence does not actively motivate.",
+   "They are only important for employees at the self-actualization level."
+  ],
+  "ans": 2,
+  "src": "TQWJYqOzs0g",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 20,
+  "stem": "A project has an Earned Value (EV) of $50,000, a Planned Value (PV) of $60,000, and an Actual Cost (AC) of $55,000. Based on these figures, what is the status of the project?",
+  "opts": [
+   "Ahead of schedule and under budget.",
+   "Behind schedule and over budget.",
+   "Ahead of schedule and over budget.",
+   "Behind schedule and under budget."
+  ],
+  "ans": 1,
+  "src": "I81fOjyzb0E",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 21,
+  "stem": "What is the primary advantage of using a restricted tendering process compared to an open tendering process for contractor selection?",
+  "opts": [
+   "It guarantees the lowest possible price due to maximum competition.",
+   "It is mandated by law for all government projects.",
+   "It reduces the evaluation time and effort by soliciting bids only from pre-selected suppliers.",
+   "It eliminates the need for a formal contract."
+  ],
+  "ans": 2,
+  "src": "olrW1tqGnsM",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 22,
+  "stem": "In the SEI CMM framework, what is the key characteristic that distinguishes a Level 3 (Defined) organization from a Level 2 (Repeatable) organization?",
+  "opts": [
+   "Level 3 uses quantitative quality goals, while Level 2 does not.",
+   "Level 3 has processes that are documented and standardized across the organization, while Level 2's processes are project-specific.",
+   "Level 3 relies on individual heroics, while Level 2 has basic project management.",
+   "Level 3 focuses on continuous process improvement, while Level 2 focuses on repeating success."
+  ],
+  "ans": 1,
+  "src": "kZ0HN-9zdik",
+  "diff": "Medium"
+ },
+ {
+  "p": 3,
+  "n": 23,
+  "stem": "A project manager uses the Value-to-Cost (V/C) ratio to prioritize increments. Given the following functionalities and their customer-rated value (V) and developer-rated cost (C), which should be developed first? Profit Reports (V=9, C=2), Online Database (V=1, C=10), Ad Hoc Enquiry (V=5, C=5), Profit-Based Pay (V=9, C=1).",
+  "opts": [
+   "Profit Reports",
+   "Online Database",
+   "Ad Hoc Enquiry",
+   "Profit-Based Pay"
+  ],
+  "ans": 3,
+  "src": "0O6fJSkafOo",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 24,
+  "stem": "In the context of the Delphi estimation technique, what is the primary purpose of ensuring anonymity among experts during the estimation rounds?",
+  "opts": [
+   "To save time by avoiding lengthy group discussions.",
+   "To prevent a dominant personality from unduly influencing the group's estimates.",
+   "To make it easier for the coordinator to calculate the final average.",
+   "To allow experts to use different estimation formulas without conflict."
+  ],
+  "ans": 1,
+  "src": "wqyJF-Gbdp0",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 25,
+  "stem": "A project is estimated using the Albrecht/IFPUG method. It has 50 user inputs, 40 user outputs, 35 inquiries, 6 internal files, and 4 external interfaces, all of average complexity. If the Total Degree of Influence (TDI) is calculated to be 42, what is the final Adjusted Function Point (AFP) count? (Use average weights: EI=4, EO=5, EQ=4, LIF=10, EIF=7).",
+  "opts": [
+   "628",
+   "672",
+   "618",
+   "661"
+  ],
+  "ans": 1,
+  "src": "rOn-GA71uKM",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 26,
+  "stem": "According to Putnam's estimation model, the relationship between effort (K) and development time (td) is K = C1 / td^4. If a project's schedule is compressed to half of its original planned time, by what factor will the total effort and cost increase?",
+  "opts": [
+   "2 times",
+   "4 times",
+   "8 times",
+   "16 times"
+  ],
+  "ans": 3,
+  "src": "_KdYrzzMuBo",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 27,
+  "stem": "A project manager needs to crash a project. The current critical path is A-B-D with a duration of 25 weeks. A parallel path, A-C-E, has a duration of 24 weeks. The costs to crash each task per week are: A=$100, B=$150, C=$80, D=$120. Which task should the manager crash first to reduce the project duration by one week?",
+  "opts": [
+   "Task A, because it is the cheapest on the critical path.",
+   "Task C, because it is the cheapest overall.",
+   "Task D, because it is on the critical path.",
+   "Tasks A and C must be crashed simultaneously."
+  ],
+  "ans": 0,
+  "src": "ikOTZBPaklE",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 28,
+  "stem": "What is the primary reason that the hardware \"bathtub curve\" of reliability, which includes burn-in, useful life, and wear-out phases, is not directly applicable to software?",
+  "opts": [
+   "Software is more complex than hardware.",
+   "Software failures are caused by design flaws (bugs), not physical wear and tear.",
+   "Software reliability cannot be measured, whereas hardware reliability can.",
+   "Hardware warranties cover the burn-in period, but software has no warranties."
+  ],
+  "ans": 1,
+  "src": "5iuEGNEyAPU",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 29,
+  "stem": "During a formal code inspection, which of the following error types is a primary target for discovery, as opposed to an error that is typically caught by a compiler?",
+  "opts": [
+   "A missing semicolon at the end of a statement.",
+   "Use of an uninitialized variable in a calculation.",
+   "An incorrectly spelled keyword like \"whle\" instead of \"while\".",
+   "A function call with the wrong number of arguments."
+  ],
+  "ans": 1,
+  "src": "4ZLbpoBcdo8",
+  "diff": "Hard"
+ },
+ {
+  "p": 3,
+  "n": 30,
+  "stem": "What is the core assumption of Quality Assurance (QA) that represents a fundamental shift from earlier Quality Control (QC) methods?",
+  "opts": [
+   "That testing every single product is the only way to ensure quality.",
+   "That a good, well-defined process, if followed rigorously, will inherently lead to quality products.",
+   "That statistical methods are not useful for monitoring product quality.",
+   "That defects should be identified and eliminated only after the product is fully manufactured."
+  ],
+  "ans": 1,
+  "src": "zQXss82WudM",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 1,
+  "stem": "According to the lecture on project management standards, what does PMBOK stand for?",
+  "opts": [
+   "Project Management Baseline of Knowledge",
+   "Process Management Body of Knowledge",
+   "Project Management Body of Knowledge",
+   "Program Management Baseline of Knowledge"
+  ],
+  "ans": 2,
+  "src": "A8-PtgugnGE",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 2,
+  "stem": "In Scrum, what is the term for a fixed-duration iteration, typically one month long, during which a potentially shippable product increment is developed?",
+  "opts": [
+   "Cycle",
+   "Sprint",
+   "Phase",
+   "Increment"
+  ],
+  "ans": 1,
+  "src": "0JYkgfgKn8I",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 3,
+  "stem": "What is the primary purpose of a Work Breakdown Structure (WBS) in project scheduling?",
+  "opts": [
+   "To calculate the project's total cost",
+   "To assign resources to team members",
+   "To create a marketing plan for the product",
+   "To hierarchically decompose project work into smaller, manageable components"
+  ],
+  "ans": 3,
+  "src": "AvwZ7JO8LNk",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 4,
+  "stem": "In cost-benefit analysis, what does ROI stand for?",
+  "opts": [
+   "Rate of Interest",
+   "Return on Investment",
+   "Risk of Investment",
+   "Revenue of Initiative"
+  ],
+  "ans": 1,
+  "src": "8UlgpszPK6w",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 5,
+  "stem": "What is the primary characteristic of a 'Functional Organization' structure?",
+  "opts": [
+   "Teams are formed for a single project and then disbanded",
+   "Employees report to multiple project managers simultaneously",
+   "Employees are grouped by specialized functions like design or testing",
+   "All decisions are made by consensus among team members"
+  ],
+  "ans": 2,
+  "src": "MpNjo7fbm3M",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 6,
+  "stem": "What is the main goal of the 'Cleanroom Technique' in software development?",
+  "opts": [
+   "To test software in a sterile hardware environment",
+   "To prevent defects from entering the code in the first place",
+   "To write code that is easy for new developers to clean up",
+   "To ensure all developers have a clean and organized workspace"
+  ],
+  "ans": 1,
+  "src": "4ZLbpoBcdo8",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 7,
+  "stem": "What is the primary purpose of a feasibility study in the software development lifecycle?",
+  "opts": [
+   "To write the initial code for the project",
+   "To determine if a project is viable before committing significant resources",
+   "To train the new development team",
+   "To create the final user manual"
+  ],
+  "ans": 1,
+  "src": "yC0A6_nYPYQ",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 8,
+  "stem": "According to the lecture, what is the most significant drawback of the 'Price to Win' estimation method?",
+  "opts": [
+   "It is too time-consuming to calculate",
+   "It requires extensive historical data",
+   "The estimated costs do not accurately reflect the actual work required",
+   "It can only be used for small projects"
+  ],
+  "ans": 2,
+  "src": "wqyJF-Gbdp0",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 9,
+  "stem": "What is the primary purpose of a Project Closure Report?",
+  "opts": [
+   "To request additional funding for the project",
+   "To assign new tasks to the project team",
+   "To document project outcomes, performance, and lessons learned for future projects",
+   "To market the newly completed software product"
+  ],
+  "ans": 2,
+  "src": "TfvonvpVeTE",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 10,
+  "stem": "In PERT/CPM, what is the sequence of activities with zero slack that determines the minimum project duration called?",
+  "opts": [
+   "The Subcritical Path",
+   "The Optimal Route",
+   "The Critical Path",
+   "The Baseline Schedule"
+  ],
+  "ans": 2,
+  "src": "gqtKDlYSJc",
+  "diff": "Easy"
+ },
+ {
+  "p": 4,
+  "n": 11,
+  "stem": "In a PERT/CPM forward pass, how is the Earliest Start (ES) time determined for an activity with multiple predecessors?",
+  "opts": [
+   "It is the earliest (minimum) of the Earliest Finish (EF) times of all its predecessors.",
+   "It is the average of the Earliest Finish (EF) times of all its predecessors.",
+   "It is the latest (maximum) of the Earliest Finish (EF) times of all its immediate predecessors.",
+   "It is determined by the project manager's discretion."
+  ],
+  "ans": 2,
+  "src": "8w2gm0AO-KY",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 12,
+  "stem": "According to Herzberg's Two-Factor Theory, which of the following is considered a 'Motivator' rather than a 'Hygiene Factor'?",
+  "opts": [
+   "Company policy",
+   "Pay",
+   "Working conditions",
+   "Recognition of effort and performance"
+  ],
+  "ans": 3,
+  "src": "TQWJYqOzs0g",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 13,
+  "stem": "What is the key difference between the RAD model and the traditional prototyping model?",
+  "opts": [
+   "The RAD model does not involve customer feedback.",
+   "In RAD, the prototype is refined into the final product, whereas in the prototyping model, it is typically thrown away.",
+   "The RAD model is only suitable for large, multi-year projects.",
+   "The prototyping model uses a 'time box' approach, while RAD does not."
+  ],
+  "ans": 1,
+  "src": "0O6fJSkafOo",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 14,
+  "stem": "In Earned Value Analysis, if a project has a Schedule Performance Index (SPI) of 0.88 and a Cost Performance Index (CPI) of 0.64, what does this indicate?",
+  "opts": [
+   "The project is ahead of schedule and under budget.",
+   "The project is ahead of schedule but over budget.",
+   "The project is behind schedule and over budget.",
+   "The project is behind schedule but under budget."
+  ],
+  "ans": 2,
+  "src": "I81fOjyzb0E",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 15,
+  "stem": "What is the primary reason software reliability measurement is more complex than hardware reliability measurement?",
+  "opts": [
+   "Software is more expensive than hardware.",
+   "Hardware failures are always caused by user error.",
+   "Software failures are due to design flaws, not physical wear, and reliability changes with each bug fix.",
+   "There are no standardized metrics for hardware reliability."
+  ],
+  "ans": 2,
+  "src": "jUUcunXtii0",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 16,
+  "stem": "How does a 'Project Organization' structure differ from a 'Functional Organization'?",
+  "opts": [
+   "A Project Organization is permanent, while a Functional Organization is temporary.",
+   "In a Project Organization, employees report to a functional manager, while in a Functional Organization, they report to a project manager.",
+   "A Project Organization offers less job variety for team members.",
+   "In a Project Organization, employees are dedicated to a single project team for its duration, whereas in a Functional Organization, they are drawn from specialized departments."
+  ],
+  "ans": 3,
+  "src": "MpNjo7fbm3M",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 17,
+  "stem": "In the context of contract management, what is the main purpose of a Memoranda of Agreement (MoA)?",
+  "opts": [
+   "To serve as the final legal contract for payment.",
+   "To document the minutes of all project meetings.",
+   "To freeze the technical specifications of a solution so subsequent tenders can be judged primarily on price.",
+   "To outline the marketing strategy for the new product."
+  ],
+  "ans": 2,
+  "src": "-hlbuCXjNGY",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 18,
+  "stem": "According to the lecture, what is a primary limitation of the classical waterfall model that the iterative waterfall model attempts to address?",
+  "opts": [
+   "Its lack of clear phases.",
+   "Its inability to handle rework and defects discovered in later phases.",
+   "Its unsuitability for projects with stable requirements.",
+   "Its over-reliance on customer feedback."
+  ],
+  "ans": 1,
+  "src": "J1-LpZr9GSQ",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 19,
+  "stem": "What is the key difference between a 'slip chart' and a 'Gantt chart' for project monitoring?",
+  "opts": [
+   "A Gantt chart is used for cost monitoring, while a slip chart is for schedule monitoring.",
+   "A slip chart visually emphasizes deviations from the schedule, while a Gantt chart provides a static snapshot of planned durations.",
+   "Only Gantt charts can show the critical path.",
+   "Slip charts are used for initial planning, while Gantt charts are for post-implementation review."
+  ],
+  "ans": 1,
+  "src": "bvt6NAabXPA",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 20,
+  "stem": "In the context of risk management, what does 'Risk Reduction Leverage (RRL)' measure?",
+  "opts": [
+   "The total number of risks in a project.",
+   "The probability of a risk occurring.",
+   "The cost-effectiveness of a risk handling technique.",
+   "The amount of time a project is delayed by a risk."
+  ],
+  "ans": 2,
+  "src": "PehmL5jOmW8",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 21,
+  "stem": "What is the primary purpose of the 'Value Adjustment Factor (VAF)' in Albrecht/IFPUG function point analysis?",
+  "opts": [
+   "To convert function points into lines of code.",
+   "To calculate the initial raw count of functional units.",
+   "To determine the number of user inputs and outputs.",
+   "To refine the raw functional size by accounting for technical and environmental complexity."
+  ],
+  "ans": 3,
+  "src": "MzhN6eZIUNU",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 22,
+  "stem": "In the SEI CMM, what distinguishes Level 4 (Managed) from Level 3 (Defined)?",
+  "opts": [
+   "Level 4 introduces basic project management, while Level 3 is chaotic.",
+   "Level 4 focuses on continuous process improvement, while Level 3 focuses on repeating success.",
+   "Level 4 introduces quantitative measurement and control of processes, while Level 3 focuses on standardizing and documenting them.",
+   "Level 4 requires peer reviews, while Level 3 does not."
+  ],
+  "ans": 2,
+  "src": "k6I04YmQWl8",
+  "diff": "Medium"
+ },
+ {
+  "p": 4,
+  "n": 23,
+  "stem": "According to Putnam's model, if a project's development time is compressed by 50% (e.g., from 2 years to 1 year), by what factor does the required effort increase?",
+  "opts": [
+   "2 times",
+   "4 times",
+   "8 times",
+   "16 times"
+  ],
+  "ans": 3,
+  "src": "_KdYrzzMuBo",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 24,
+  "stem": "In a PERT/CPM backward pass, how is the Latest Finish (LF) time determined for an activity that is a 'burst point' (i.e., has multiple successors)?",
+  "opts": [
+   "It is the latest (maximum) of the Latest Start (LS) times of all its successors.",
+   "It is the smallest (minimum) of the Latest Start (LS) times of all its immediate successors.",
+   "It is the average of the Latest Start (LS) times of all its successors.",
+   "It is equal to the project's overall earliest finish time."
+  ],
+  "ans": 1,
+  "src": "8w2gm0AO-KY",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 25,
+  "stem": "In Halstead's Software Science, how is Programming Effort (E) calculated, and what does it represent?",
+  "opts": [
+   "E = V * L, representing the total lines of code.",
+   "E = N * log2(η), representing the program volume.",
+   "E = V^2 / V*, representing the number of mental discriminations required to implement the program.",
+   "E = V / S, representing the total development time in months."
+  ],
+  "ans": 2,
+  "src": "w_Ka3XuXEbw",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 26,
+  "stem": "What is a fundamental difference in how the Jelinski Moranda model and the Littlewood and Verall’s model account for reliability growth?",
+  "opts": [
+   "Jelinski Moranda is a step function model, while Littlewood and Verall's is linear.",
+   "Littlewood and Verall’s model accounts for negative reliability growth and diminishing returns, while Jelinski Moranda assumes reliability improvement is proportional to remaining faults.",
+   "Jelinski Moranda is used for hardware reliability, while Littlewood and Verall's is for software.",
+   "Littlewood and Verall’s model assumes each bug fix contributes equally to reliability, which Jelinski Moranda refutes."
+  ],
+  "ans": 1,
+  "src": "M82c48MiL4w",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 27,
+  "stem": "A project manager is using the 0/100 technique for earned value. A task with a Planned Value (PV) of $10,000 is scheduled for completion by week 4. At the end of week 4, the task is 90% complete with an Actual Cost (AC) of $8,000. What are the Earned Value (EV), Cost Variance (CV), and Schedule Variance (SV)?",
+  "opts": [
+   "EV = $9,000, CV = $1,000, SV = -$1,000",
+   "EV = $0, CV = -$8,000, SV = -$10,000",
+   "EV = $10,000, CV = $2,000, SV = $0",
+   "EV = $0, CV = $2,000, SV = -$10,000"
+  ],
+  "ans": 1,
+  "src": "88pXUUtmnbg",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 28,
+  "stem": "Why is an organization with ISO 9001 certification prohibited from advertising its individual products as 'ISO 9000 compliant'?",
+  "opts": [
+   "Because ISO 9001 certification is only valid for one year.",
+   "Because the ISO organization charges a separate fee for product-level advertising.",
+   "Because ISO 9001 certifies the organization's quality process, not the individual products themselves.",
+   "Because only organizations in the manufacturing sector can advertise product compliance."
+  ],
+  "ans": 2,
+  "src": "ODQNex8xtjU",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 29,
+  "stem": "In the context of team structures, why is a hierarchical team structure considered more suitable for large projects than a democratic team structure?",
+  "opts": [
+   "A hierarchical team is less expensive to manage.",
+   "A hierarchical structure scales effectively by distributing leadership, whereas the N-squared communication paths in a democratic team become highly inefficient as team size increases.",
+   "Democratic teams are only suitable for maintenance projects.",
+   "Hierarchical teams do not require a project manager."
+  ],
+  "ans": 1,
+  "src": "wjd0YMixlJA",
+  "diff": "Hard"
+ },
+ {
+  "p": 4,
+  "n": 30,
+  "stem": "In COCOMO II's Application Composition Model, what three components are counted to determine the Number of Application Points (NAP)?",
+  "opts": [
+   "Number of lines of code, number of developers, and project duration.",
+   "Number of use cases, number of actors, and number of classes.",
+   "Number of separate screens, number of reports produced, and number of modules.",
+   "Number of hardware devices, number of databases, and number of network connections."
+  ],
+  "ans": 2,
+  "src": "JXiFgnkKGAQ",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 1,
+  "stem": "According to the lecture, what is the primary purpose of a Work Breakdown Structure (WBS)?",
+  "opts": [
+   "To calculate the project's total cost and budget.",
+   "To create a hierarchical decomposition of project work into smaller, manageable components.",
+   "To assign specific developers to each task in the project.",
+   "To determine the critical path of the project."
+  ],
+  "ans": 1,
+  "src": "AvwZ7JO8LNk",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 2,
+  "stem": "In the Scrum framework, what is a 'Sprint'?",
+  "opts": [
+   "A long-term project plan spanning several months.",
+   "A daily 15-minute meeting for the development team.",
+   "A fixed-duration iteration, typically one month long, to develop a product increment.",
+   "The final phase of the project where all features are integrated."
+  ],
+  "ans": 2,
+  "src": "0JYkgfgKn8I",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 3,
+  "stem": "What does Parkinson's Law state in the context of project estimation?",
+  "opts": [
+   "The best way to estimate a project is to break it down into its smallest parts.",
+   "Work expands to fill the time available.",
+   "A project without a reliability requirement can meet any other requirement.",
+   "The more people you add to a late project, the later it gets."
+  ],
+  "ans": 1,
+  "src": "0mpuhlabOWE",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 4,
+  "stem": "In project monitoring and control, what is a 'milestone'?",
+  "opts": [
+   "A daily task assigned to a junior developer.",
+   "A designated key event or significant point in a project's timeline.",
+   "The total budget allocated for a project phase.",
+   "An informal discussion about project progress."
+  ],
+  "ans": 1,
+  "src": "3Rjj4IyO3hc",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 5,
+  "stem": "In Earned Value Analysis, what is 'Planned Value (PV)'?",
+  "opts": [
+   "The actual cost incurred for the work performed.",
+   "The total value credited to a project at a specific point in time.",
+   "The original budgeted cost for work scheduled to be completed by a given date.",
+   "The final profit earned at the end of the project."
+  ],
+  "ans": 2,
+  "src": "88pXUUtmnbg",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 6,
+  "stem": "What is the Hawthorne Effect?",
+  "opts": [
+   "The tendency for project scope to expand over time.",
+   "The phenomenon where individuals improve performance in response to being observed.",
+   "The principle that 90% of execution time is spent in 10% of the code.",
+   "A management style that assumes employees are inherently lazy."
+  ],
+  "ans": 1,
+  "src": "ikOTZBPaklE",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 7,
+  "stem": "What is a 'functional organization' structure?",
+  "opts": [
+   "A structure where teams are formed for a single project and then disbanded.",
+   "A structure where employees are grouped by specialized functions like design or testing.",
+   "A hybrid structure with dual reporting lines to project and functional managers.",
+   "A flat structure where all decisions are made by consensus."
+  ],
+  "ans": 1,
+  "src": "MpNjo7bhBTg",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 8,
+  "stem": "What is a 'resource histogram' used for in project management?",
+  "opts": [
+   "To calculate the total cost of all project resources.",
+   "To list all activities on the critical path.",
+   "To visualize the demand for a specific resource over the project's timeline.",
+   "To document the project's communication plan."
+  ],
+  "ans": 2,
+  "src": "ZcO5UNzMtz8",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 9,
+  "stem": "In contract management, what is a 'bespoke system'?",
+  "opts": [
+   "A generalized software package available for immediate purchase.",
+   "A software system specifically created and tailored for a single customer's unique requirements.",
+   "A core system that is purchased and then customized to meet specific needs.",
+   "A contract where the customer is charged per hour of work."
+  ],
+  "ans": 1,
+  "src": "olrW1uKQe0sM",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 10,
+  "stem": "What is meant by the 'intangibility' of software?",
+  "opts": [
+   "Software is very easy to change and modify.",
+   "Software does not consume physical space or have weight.",
+   "Software progress is difficult to visually assess until it is fully operational.",
+   "Software development is primarily intellectual work."
+  ],
+  "ans": 2,
+  "src": "ilHPCbkZLV4",
+  "diff": "Easy"
+ },
+ {
+  "p": 5,
+  "n": 11,
+  "stem": "In the Incremental Model, how is the Value-to-Cost (V/C) ratio used?",
+  "opts": [
+   "To calculate the total net profit of the project.",
+   "To determine the number of developers needed for a task.",
+   "To prioritize which increments to develop next by comparing customer value to development cost.",
+   "To decide whether to use the Waterfall model or the RAD model."
+  ],
+  "ans": 2,
+  "src": "0O6fJSkafOo",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 12,
+  "stem": "What is the primary role of the Scrum Master in a Scrum team?",
+  "opts": [
+   "To define features and prioritize the Product Backlog.",
+   "To write the code for the most complex user stories.",
+   "To act as a servant-leader who facilitates the process and removes impediments.",
+   "To represent the customer's interests and accept or reject completed work."
+  ],
+  "ans": 2,
+  "src": "0JYkgfgKn8I",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 13,
+  "stem": "What is the key difference between Project Risk and Business Risk?",
+  "opts": [
+   "Project Risk relates to budget overruns, while Business Risk relates to schedule delays.",
+   "Project Risk threatens the successful execution of the project, while Business Risk threatens the benefits of the delivered project.",
+   "Project Risk is managed by the development team, while Business Risk is managed by the customer.",
+   "Project Risk is only relevant for technical projects, while Business Risk applies to all projects."
+  ],
+  "ans": 1,
+  "src": "8RuJfk1Xj2U",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 14,
+  "stem": "How does Net Present Value (NPV) analysis improve upon evaluation techniques like ROI and Payback Period?",
+  "opts": [
+   "It is simpler to calculate and requires less data.",
+   "It provides a result as a percentage, which is easier to understand.",
+   "It ignores future cash flows, focusing only on the initial investment.",
+   "It accounts for the time value of money by discounting future cash flows."
+  ],
+  "ans": 3,
+  "src": "8UlgpszPK6w",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 15,
+  "stem": "In a PERT/CPM network, what is the rule for calculating the Earliest Start (ES) time for an activity at a merge point (an activity with multiple predecessors)?",
+  "opts": [
+   "It is the average of the Earliest Finish (EF) times of all its predecessors.",
+   "It is the earliest (minimum) of the Earliest Finish (EF) times of all its predecessors.",
+   "It is the latest (maximum) of the Earliest Finish (EF) times of all its predecessors.",
+   "It is determined by the duration of the longest predecessor activity."
+  ],
+  "ans": 2,
+  "src": "8w2gm0AO-KY",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 16,
+  "stem": "How does the V-Model emphasize verification and validation compared to the classical waterfall model?",
+  "opts": [
+   "It removes the testing phase entirely to speed up development.",
+   "It integrates test planning and design activities into every development phase.",
+   "It performs all testing only after the coding phase is 100% complete.",
+   "It relies on customer feedback instead of formal testing activities."
+  ],
+  "ans": 1,
+  "src": "J1-LpZr9GSQ",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 17,
+  "stem": "What is the purpose of 'refactoring' in agile development?",
+  "opts": [
+   "To add new features requested by the customer during an iteration.",
+   "To fix bugs discovered during the testing phase.",
+   "To restructure existing code without changing its external behavior, to improve its internal design.",
+   "To create the initial design metaphor for the project."
+  ],
+  "ans": 2,
+  "src": "lWkKAZ0jatM",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 18,
+  "stem": "In the IFPUG function point method, how is the Value Adjustment Factor (VAF) calculated?",
+  "opts": [
+   "By multiplying the number of user inputs by the number of user outputs.",
+   "By summing the weights of all functional units.",
+   "By using the formula VAF = 0.65 + (0.01 * TDI), where TDI is the Total Degree of Influence.",
+   "By dividing the estimated lines of code by the number of function points."
+  ],
+  "ans": 2,
+  "src": "MzhN6eZIUNU",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 19,
+  "stem": "What is a subcritical path and why is it important for project managers to monitor?",
+  "opts": [
+   "It is a path with negative float, indicating the project is already late.",
+   "It is the shortest path in the network, representing the fastest possible completion.",
+   "It is a path where activities have a very small, but non-zero, amount of float, which could easily become critical.",
+   "It is a path that has been intentionally delayed to save costs."
+  ],
+  "ans": 2,
+  "src": "lFu77P8s2QQ",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 20,
+  "stem": "What is a primary advantage of a project organization structure in terms of job satisfaction?",
+  "opts": [
+   "It allows specialists to focus on a single type of task, enhancing their expertise.",
+   "It provides job variety and rotation, as team members engage in diverse activities.",
+   "It guarantees lifetime employment on a single project.",
+   "It minimizes communication, allowing developers to work in isolation."
+  ],
+  "ans": 1,
+  "src": "MpNjo7bhBTg",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 21,
+  "stem": "What is the primary advantage of a Time and Material contract for the customer?",
+  "opts": [
+   "The total project cost is fixed and known upfront.",
+   "The supplier has a strong incentive to be cost-effective.",
+   "It is easy to change or add new requirements during development.",
+   "It shifts all financial risk to the supplier."
+  ],
+  "ans": 2,
+  "src": "olrW1uKQe0sM",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 22,
+  "stem": "In the context of algorithmic estimation, what is the purpose of 'model calibration'?",
+  "opts": [
+   "To select the programming language for the project.",
+   "To create a detailed Work Breakdown Structure (WBS).",
+   "To customize a generic model to fit specific organizational needs and project characteristics.",
+   "To calculate the final price charged to the customer."
+  ],
+  "ans": 2,
+  "src": "U5v_uKQe0Ic",
+  "diff": "Medium"
+ },
+ {
+  "p": 5,
+  "n": 23,
+  "stem": "In the contract tendering process, what is the primary purpose of establishing a Memoranda of Agreement (MoA)?",
+  "opts": [
+   "To finalize the payment schedule and contract price with the chosen vendor.",
+   "To invite as many suppliers as possible to bid on the project.",
+   "To freeze the technical specifications so that subsequent tenders can be judged primarily on price.",
+   "To legally bind all potential bidders to a non-disclosure agreement."
+  ],
+  "ans": 2,
+  "src": "-hlbuCXjNGY",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 24,
+  "stem": "Why is Weinberg's Zeroth Law of Reliability ('a software project that does not have to meet a reliability requirement can meet any other requirement') a critical principle in project estimation?",
+  "opts": [
+   "It implies that reliability is the easiest requirement to achieve.",
+   "It suggests that if reliability is not a strict requirement, other aspects might be prioritized at its expense, affecting true project cost and quality.",
+   "It proves that over-estimating project duration always leads to better reliability.",
+   "It states that reliability can only be estimated after the project is 100% complete."
+  ],
+  "ans": 1,
+  "src": "0mpuhlabOWE",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 25,
+  "stem": "What is the defining characteristic of the Cleanroom technique for bug removal?",
+  "opts": [
+   "It relies exclusively on automated testing tools to find all defects.",
+   "It requires managers to personally review and approve every line of code.",
+   "Programmers are strictly not allowed to test their code by executing it for bug removal.",
+   "It is an informal process where developers mentally simulate code execution."
+  ],
+  "ans": 2,
+  "src": "4ZLbpoBcdo8",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 26,
+  "stem": "Why is Probability of Failure On Demand (POFOD) often a more relevant reliability metric for software systems than time-based metrics like MTTF?",
+  "opts": [
+   "POFOD is easier to calculate without any user data.",
+   "Software often operates on demand rather than continuously, making the success rate of individual invocations more meaningful.",
+   "POFOD accounts for the physical wear and tear of software components.",
+   "POFOD is the only metric that can be used for hardware reliability."
+  ],
+  "ans": 1,
+  "src": "5iuEGNEyAPU",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 27,
+  "stem": "Why is the Spiral Model considered a 'meta-model'?",
+  "opts": [
+   "It is the oldest and most foundational of all lifecycle models.",
+   "It can only be applied to metaphysical or abstract software problems.",
+   "It is exclusively focused on risk handling and ignores other development activities.",
+   "It can incorporate aspects of waterfall, iterative, and prototyping models within its loops."
+  ],
+  "ans": 3,
+  "src": "sQyR78dlSzc",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 28,
+  "stem": "How is Risk Reduction Leverage (RRL) used to make decisions about which risk handling techniques to implement?",
+  "opts": [
+   "A higher RRL indicates a risk is more severe and should be avoided at all costs.",
+   "An RRL greater than 1 indicates the technique is cost-effective because the reduction in risk exposure outweighs the cost.",
+   "RRL is calculated by dividing the cost of the technique by the potential damage.",
+   "An RRL less than 1 means the risk handling technique is guaranteed to eliminate the risk."
+  ],
+  "ans": 1,
+  "src": "PehmL5jOmW8",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 29,
+  "stem": "What is the key difference between a 'version' and a 'revision' in the context of Software Configuration Management (SCM)?",
+  "opts": [
+   "A version refers to source code, while a revision refers to documentation.",
+   "A version is a specific configuration of the entire product at a point in time, while a revision is a successive state of a single configuration item.",
+   "A version is created by the project manager, while a revision is created by a junior developer.",
+   "Versions are used for internal tracking, while revisions are released to customers."
+  ],
+  "ans": 1,
+  "src": "uITAo7fbm3M",
+  "diff": "Hard"
+ },
+ {
+  "p": 5,
+  "n": 30,
+  "stem": "According to Putnam's model, what is the expected impact on total effort if a project's development time is compressed by 50%?",
+  "opts": [
+   "The effort will decrease by 50%.",
+   "The effort will double (increase by 2 times).",
+   "The effort will quadruple (increase by 4 times).",
+   "The effort will increase by 16 times."
+  ],
+  "ans": 3,
+  "src": "_KdYrzzMuBo",
+  "diff": "Hard"
+ }
+]
