@@ -263,10 +263,23 @@ function renderPage(id) {
     root.append(h('div', { class: 'nextprev' }, ti > 0 ? h('button', { class: 'btn', onclick: () => go(topics[ti - 1].id) }, '← ' + topics[ti - 1].title) : h('span'), mk, ti < topics.length - 1 ? h('button', { class: 'btn', onclick: () => go(topics[ti + 1].id) }, topics[ti + 1].title + ' →') : h('span')));
   }
   document.title = p.id === 'home' ? 'SPM Exam Lab' : p.title + ' · SPM Exam Lab';
-  $('#main').scrollTop = 0;
+  resetScroll();
+  requestAnimationFrame(() => markScroll(root));
   $$('.navitem').forEach(b => b.getAttribute('data-id') === p.id ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
   closeRail();
 }
+// Jump (not smooth-scroll) to the top of a freshly rendered page: .main has scroll-behavior:smooth,
+// which otherwise animates all the way up from the previous page's position.
+function resetScroll() { const m = $('#main'); if (!m) return; m.style.scrollBehavior = 'auto'; m.scrollTop = 0; m.style.scrollBehavior = ''; }
+// Wide diagrams and tables scroll sideways inside their own box on phones: say so under each one.
+function markScroll(root) {
+  $$('.dgwrap, .netwrap, .tblwrap', root || document).forEach(w => {
+    const nx = w.nextElementSibling, has = nx && nx.classList.contains('swipehint');
+    if (w.scrollWidth > w.clientWidth + 8) { if (!has) w.insertAdjacentHTML('afterend', `<div class="swipehint" aria-hidden="true">↔ swipe sideways to see ${w.matches('.tblwrap') ? 'all columns' : 'the whole diagram (or turn the phone sideways)'}</div>`); }
+    else if (has) nx.remove();
+  });
+}
+let _msT; addEventListener('resize', () => { clearTimeout(_msT); _msT = setTimeout(() => markScroll($('#page')), 200); });
 function go(id) { if (location.hash !== '#' + id) location.hash = id; else renderPage(id); }
 function buildNav() {
   const nav = $('#nav'); const q = ($('#search').value || '').toLowerCase().trim(); nav.innerHTML = '';

@@ -70,7 +70,7 @@ th{background:var(--surface2);font:700 .8rem var(--f-mono);letter-spacing:.03em}
 .lab{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);margin:16px 0;overflow:hidden;box-shadow:var(--shadow)}
 .lab>header{display:flex;gap:10px;align-items:center;padding:9px 14px;background:var(--surface2);border-bottom:1px solid var(--line);font:700 .78rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase}
 .lab>header i{width:9px;height:9px;border-radius:50%;background:var(--ch-d)}
-.lab .body{padding:12px 14px;display:grid;gap:12px}
+.lab .body{padding:12px 14px;display:grid;grid-template-columns:minmax(0,1fr);gap:12px}.lab .body>*{min-width:0}
 .lab .cap{font-size:.9rem;color:var(--muted)}
 canvas.scope{width:100%;display:block;background:var(--scope);border:1px solid var(--line);border-radius:8px}
 .ctl{display:grid;grid-template-columns:minmax(110px,170px) 1fr minmax(64px,auto);gap:10px;align-items:center;font-size:.92rem}
@@ -398,3 +398,6 @@ td.num,th.num{text-align:right}
 @media (prefers-reduced-motion:reduce){.dg .ln.flow,.dg .pulse,.dg .bob,.anim>header i{animation:none}.dg .draw{animation:none;stroke-dashoffset:0}}
 .dg.wide{min-width:600px}
 .dg text.brd{fill:var(--brand)}
+
+.swipehint{font:600 .72rem var(--f-mono);color:var(--muted);text-align:center;margin:-4px 0 10px;letter-spacing:.02em}
+.anim .stage .swipehint{margin:4px 0 6px}

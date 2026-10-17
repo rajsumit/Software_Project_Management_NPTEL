@@ -161,7 +161,7 @@ page({ id: 'mock-exam', mod: 'home', title: 'Timed mock exam (3 h)', kw: 'mock t
     const drawList = f => { list.innerHTML = ''; R.rows.filter(r => f === 'all' || (f === 'wrong' ? !r.ok : r.ok)).forEach(r => list.append(reviewCard(r))); };
     segmented(fl, [['wrong', 'Wrong / blank'], ['all', 'All'], ['right', 'Right']], 'wrong', drawList); drawList('wrong');
     body.append(h('div', { class: 'nextprev' }, h('button', { class: 'btn primary', onclick: () => { M = null; store.set(KEY, null); startScreen(); } }, 'New paper'), h('button', { class: 'btn', onclick: () => go('revision-sheet') }, 'Revision sheet'), h('button', { class: 'btn', onclick: () => go('easy-marks') }, 'Easy marks')));
-    $$('[data-go]', body).forEach(bt => bt.addEventListener('click', () => go(bt.dataset.go))); $('#main').scrollTop = 0;
+    $$('[data-go]', body).forEach(bt => bt.addEventListener('click', () => go(bt.dataset.go))); resetScroll();
   }
   function reviewCard(r, compact) {
     const q = r.q, i = M.qs.indexOf(r.id), c = h('div', { class: 'q rv ' + (r.ok ? 'ok' : r.blank ? 'bl' : 'no') });
