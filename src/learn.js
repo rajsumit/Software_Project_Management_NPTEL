@@ -28,7 +28,7 @@ const STEPS = (items) => `<ol class="steps">${items.map(x => `<li>${x}</li>`).jo
 const COLS = (...cols) => `<div class="cols">${cols.map(c => `<div>${c}</div>`).join('')}</div>`;
 
 /* ---------- SVG helpers (colours come from CSS classes so both themes work) ---------- */
-const SVG = (w, hgt, inner, cls = '') => `<div class="dgwrap"><svg class="dg ${cls}" viewBox="0 0 ${w} ${hgt}" role="img" preserveAspectRatio="xMidYMid meet">${inner}</svg></div>`;
+const SVG = (w, hgt, inner, cls = '') => `<div class="dgwrap"><svg class="dg ${cls}" viewBox="0 0 ${w} ${hgt}" style="--vw:${w}" role="img" preserveAspectRatio="xMidYMid meet">${inner}</svg></div>`;
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 function tx(x, y, s, a = {}) { const lines = String(s).split('\n'), lh = a.lh || 15, y0 = y - (lines.length - 1) * lh / 2; return `<text x="${x}" y="${y0}" class="${a.c || ''}" text-anchor="${a.anchor || 'middle'}" dominant-baseline="middle"${a.at || ''}>${lines.map((l, i) => `<tspan x="${x}" dy="${i ? lh : 0}">${l}</tspan>`).join('')}</text>`; }
 function bx(x, y, w, hgt, label, a = {}) { return `<g${a.at || ''}${a.g ? ` class="${a.g}"` : ''}><rect x="${x}" y="${y}" width="${w}" height="${hgt}" rx="${a.r == null ? 8 : a.r}" class="bx ${a.c || ''}"/>${label != null ? tx(x + w / 2, y + hgt / 2, label, { c: a.tc || '', lh: a.lh }) : ''}</g>`; }

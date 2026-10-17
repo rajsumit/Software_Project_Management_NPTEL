@@ -339,7 +339,7 @@ td.num,th.num{text-align:right}
 .cfb.good,.cfb.bad{background:var(--surface2);padding:8px 12px;border-radius:8px;color:var(--ink);border-left:4px solid var(--good)}.cfb.bad{border-left-color:var(--bad)}
 /* diagrams */
 .dgwrap{overflow-x:auto;margin:10px 0}
-.dg{width:100%;height:auto;display:block;min-width:0;max-width:100%}
+.dg{width:100%;height:auto;display:block;min-width:calc(var(--vw, 0) * .85px);max-width:100%}
 .dg text{font:600 13px var(--f-body);fill:var(--ink)}
 .dg text.sm{font-size:11px;font-weight:500}.dg text.xs{font-size:10px;font-weight:500}.dg text.lg{font:700 16px var(--f-display)}.dg text.mono{font:600 12px var(--f-mono)}
 .dg text.mu{fill:var(--muted)}.dg text.wh{fill:var(--brand-ink)}.dg text.hot{fill:var(--warn)}.dg text.red{fill:var(--ch-i)}.dg text.grn{fill:var(--ch-d)}.dg text.blu{fill:var(--ch-v)}.dg text.pur{fill:var(--ch-b)}

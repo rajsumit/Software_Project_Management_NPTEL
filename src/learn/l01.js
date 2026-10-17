@@ -21,7 +21,7 @@ learn('t-intro', { ch: '1.1', title: 'The project nobody could see', line: 'Riya
   H(L, `<h3>Hardware got cheap, software did not</h3>
     <p>Prof. Mall's example: a laptop costs about <b>Rs. 45,000</b>, operating system included. A professional design tool to run on it (Rational suite) costs <b>Rs. 3,14,600</b> node-locked and <b>Rs. 6,03,200</b> as a floating licence. In 1960 most of a system's cost was hardware; today almost all of it is software.</p>`);
   H(L, SVG(600, 210, `<line x1="60" y1="170" x2="570" y2="170" class="ln"/><line x1="60" y1="170" x2="60" y2="20" class="ln"/>
-    ${tx(40, 95, 'share of\nsystem cost', { c: 'xs mu' })}${tx(70, 188, '1960', { c: 'sm mu' })}${tx(555, 188, '2019', { c: 'sm mu' })}
+    ${tx(66, 12, 'share of system cost ↑', { c: 'xs mu', anchor: 'start' })}${tx(70, 188, '1960', { c: 'sm mu' })}${tx(555, 188, '2019', { c: 'sm mu' })}
     <path d="M70 40 C 220 60, 330 140, 560 158" class="ln thick b draw" style="--len:600"/>${tx(500, 140, 'hardware', { c: 'sm brd' })}
     <path d="M70 155 C 220 140, 330 60, 560 32" class="ln thick r draw" style="--len:600;--dur:3s"/>${tx(500, 22, 'software', { c: 'sm red' })}`));
   H(L, `<p>So why not build everything in hardware? Because software has two virtues hardware can never have: it is <b>relatively easy to change</b>, and it <b>consumes no space, weight or power</b>. "Otherwise all might as well be hardware."</p>
