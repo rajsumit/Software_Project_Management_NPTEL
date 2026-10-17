@@ -238,6 +238,7 @@ function renderPage(id) {
   const p = PAGES.find(x => x.id === id) || PAGES[0];
   const root = $('#page'); root.innerHTML = '';
   if (p.topic) root.insertAdjacentHTML('beforeend', topicHeader(p));
+  if (p.topic && window.renderLearn) renderLearn(p, root);
   const body = h('div'); root.append(body);
   p.render(body, p);
   (EMBED[p.id] || []).forEach(fn => { const box = h('div', { class: 'embed' }); body.append(box); fn(box); });
@@ -280,7 +281,7 @@ function buildNav() {
 function closeRail() { $('#rail').classList.remove('open'); const s = $('.scrim'); if (s) s.remove(); }
 function openRail() { $('#rail').classList.add('open'); document.body.append(h('div', { class: 'scrim', onclick: closeRail })); }
 function boot() {
-  Theme.apply();
+  Theme.apply(); if (window.svgDefs) svgDefs();
   const tt = {}; PAGES.forEach(p => { if (p.topic) tt[p.id] = p.title; }); (window.QBANK || []).forEach(q => q.topicTitle = tt[q.topic] || q.topic);
   buildNav();
   $('#search').addEventListener('input', buildNav);

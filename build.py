@@ -5,7 +5,7 @@ import os, sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, 'src')
 ORDER = ['qbank.js', 'core.js', 'gen.js', 'figs.js'] + ['topics/%s.js' % t for t in
-         ['home', 'easy', 'qbank', 'mock', 'revision'] + ['w%02d' % i for i in range(1, 13)]]
+         ['home']] + ['learn.js'] + ['topics/%s.js' % t for t in ['easy', 'qbank', 'mock', 'revision'] + ['w%02d' % i for i in range(1, 13)]] + ['learn/l%02d.js' % i for i in range(1, 13) if os.path.exists(os.path.join(SRC, 'learn', 'l%02d.js' % i))]
 def rd(p): return open(os.path.join(SRC, p), encoding='utf-8').read()
 js = '\n'.join('/* ---- %s ---- */\n' % p + rd(p) for p in ORDER)
 js += '\ntry { boot(); } catch (e) { document.getElementById("page").innerHTML = "<h1>Something went wrong</h1><pre>" + (e && e.stack || e) + "</pre>"; }\n'
