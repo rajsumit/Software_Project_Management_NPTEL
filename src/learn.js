@@ -1,6 +1,6 @@
 /* ===== Learn: story + theory framework =====
    learn(id, meta, fn) registers the story/theory part of a topic page.
-   The page renders: header → section nav → Learn (story + theory) → Exam toolkit (old page) → questions. */
+   The page renders: header → section nav → Learn (story + theory) → Practice (games, labs, exam traps) → questions. */
 const LEARN = {}, CHAPTERS = [];
 function learn(id, meta, fn) { LEARN[id] = fn; CHAPTERS.push(Object.assign({ id }, meta)); }
 
@@ -86,11 +86,11 @@ function renderLearn(p, root) {
   const ch = CHAPTERS.find(c => c.id === p.id);
   const nav = h('div', { class: 'secnav' });
   const L = h('section', { class: 'learn', id: 'learn' });
-  nav.append(h('span', { class: 'mono' }, 'On this page'), h('button', { class: 'chipbtn', onclick: () => L.scrollIntoView({ behavior: 'smooth' }) }, '📖 Story & theory'), h('button', { class: 'chipbtn', onclick: () => { const t = $('#toolkit'); if (t) t.scrollIntoView({ behavior: 'smooth' }); } }, '🧰 Exam toolkit'), h('button', { class: 'chipbtn', onclick: () => { const t = $('#practice'); if (t) t.scrollIntoView({ behavior: 'smooth' }); } }, '✍ Questions'));
+  nav.append(h('span', { class: 'mono' }, 'On this page'), h('button', { class: 'chipbtn', onclick: () => L.scrollIntoView({ behavior: 'smooth' }) }, '📖 Story & theory'), h('button', { class: 'chipbtn', onclick: () => { const t = $('#toolkit'); if (t) t.scrollIntoView({ behavior: 'smooth' }); } }, '🎮 Games & labs'), h('button', { class: 'chipbtn', onclick: () => { const t = $('#practice'); if (t) t.scrollIntoView({ behavior: 'smooth' }); } }, '✍ Questions'));
   root.append(nav, L);
   if (ch && ch.line) L.append(h('p', { class: 'chline' }, h('span', { class: 'mono' }, `Story · chapter ${ch.ch}`), ' ', ch.line));
   fn(L);
-  root.append(h('div', { class: 'toolkit', id: 'toolkit' }, h('span', { class: 'mono' }, 'Exam toolkit'), h('h2', {}, 'Must-remember, labs and traps'), h('p', { class: 'cap' }, 'The same topic condensed for revision: what to memorise, interactive labs, and the traps the assignments set.')));
+  root.append(h('div', { class: 'toolkit', id: 'toolkit' }, h('span', { class: 'mono' }, 'Practice'), h('h2', {}, 'Games, labs and exam traps'), h('p', { class: 'cap' }, 'Try the ideas yourself with the games and calculators, then read the traps the assignments set.')));
   return true;
 }
 document.addEventListener('click', e => { const t = e.target.closest('[data-goto]'); if (t) { e.preventDefault(); go(t.dataset.goto); } });
