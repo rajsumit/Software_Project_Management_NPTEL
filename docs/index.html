@@ -121,9 +121,6 @@ input[type=range]{width:100%;accent-color:var(--ch-v)}
 .heatrow .bar{height:12px;background:var(--surface2);border-radius:99px;overflow:hidden}
 .heatrow .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--ch-v),var(--ch-i));border-radius:99px}
 .heatrow button{background:none;border:0;text-align:left;color:var(--brand);font:inherit;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
-.steps{counter-reset:s;list-style:none;padding:0;margin:10px 0}
-.steps li{counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:10px;margin:8px 0}
-.steps li::before{content:counter(s);font:700 .9rem var(--f-mono);width:30px;height:30px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center}
 .three{width:100%;aspect-ratio:16/10;max-height:460px;border-radius:8px;background:var(--scope);border:1px solid var(--line);position:relative;touch-action:none;cursor:grab}
 .three canvas{width:100%!important;height:100%!important;display:block;border-radius:8px}
 .three .hint{position:absolute;left:10px;bottom:8px;font:600 .7rem var(--f-mono);color:var(--muted);pointer-events:none}
@@ -413,6 +410,10 @@ td.num,th.num{text-align:right}
 
 .swipehint{font:600 .72rem var(--f-mono);color:var(--muted);text-align:center;margin:-4px 0 10px;letter-spacing:.02em}
 .anim .stage .swipehint{margin:4px 0 6px}
+/* Definition pairs inside multi-column layouts: stack term above text so the text keeps a readable width */
+.cols .def{grid-template-columns:minmax(0,1fr)}
+/* Phones: wide tables keep readable columns and scroll sideways (with the swipe hint) instead of crushing cells */
+@media (max-width:700px){.tblwrap>table:has(tr>:nth-child(3)){min-width:520px}.tblwrap>table:has(tr>:nth-child(5)){min-width:660px}}
 </style>
 </head>
 <body>
